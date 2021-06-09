@@ -1,0 +1,146 @@
+{
+  "uid" : "fad21ad4556619cf",
+  "name" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "fullName" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart..5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "historyId" : "f2061ecd1ed3379b6b91ecd7cc2d7055",
+  "time" : {
+    "start" : 1623270485581,
+    "stop" : 1623270486060,
+    "duration" : 479
+  },
+  "description" : "Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "descriptionHtml" : "<p>Validate 'Sauce Labs Onesie' Product Page is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270485583,
+        "stop" : 1623270486057,
+        "duration" : 474
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1623270485630,
+          "stop" : 1623270485739,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "e751f04e825a4cd6",
+          "name" : "Request",
+          "source" : "e751f04e825a4cd6.json",
+          "type" : "application/json",
+          "size" : 86
+        }, {
+          "uid" : "13aee5d507e98305",
+          "name" : "Response",
+          "source" : "13aee5d507e98305.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/element/fb0f8fac-aa1a-4606-8299-d7d2ac2dd270/text",
+        "time" : {
+          "start" : 1623270485806,
+          "stop" : 1623270485853,
+          "duration" : 47
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cda9d64796c82d49",
+          "name" : "Response",
+          "source" : "cda9d64796c82d49.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "cef2cf758394cc8d",
+        "name" : "Request",
+        "source" : "cef2cf758394cc8d.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "a04effb8da8fa80f",
+        "name" : "Response",
+        "source" : "a04effb8da8fa80f.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add specific product"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-5"
+  }, {
+    "name" : "suite",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fad21ad4556619cf.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

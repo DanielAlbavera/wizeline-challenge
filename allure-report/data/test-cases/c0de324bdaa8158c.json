@@ -1,0 +1,125 @@
+{
+  "uid" : "c0de324bdaa8158c",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "fullName" : "Sort products by Price (low to high)..3.- Validate 'Inventory Page' is displayed",
+  "historyId" : "14b96f3475d0e87c157c571267a2c74",
+  "time" : {
+    "start" : 1623270084011,
+    "stop" : 1623270084998,
+    "duration" : 987
+  },
+  "description" : "Validate 'Inventory Page' is displayed",
+  "descriptionHtml" : "<p>Validate 'Inventory Page' is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270084075,
+        "stop" : 1623270084336,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a22674d714f69e67",
+        "name" : "Request",
+        "source" : "a22674d714f69e67.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "72b26edb9089191a",
+        "name" : "Response",
+        "source" : "72b26edb9089191a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623270084421,
+        "stop" : 1623270084876,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "df08b343b404fa4",
+        "name" : "Request",
+        "source" : "df08b343b404fa4.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "d2a771ce3e9da2",
+        "name" : "Response",
+        "source" : "d2a771ce3e9da2.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Sort Products - Low to High"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testClass",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testMethod",
+    "value" : "3.- Validate 'Inventory Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0de324bdaa8158c.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

@@ -1,0 +1,120 @@
+{
+  "uid" : "9d45b57958f3bab4",
+  "name" : "5.- Validate 'Login Page' is displayed",
+  "fullName" : "Logout from the home page..5.- Validate 'Login Page' is displayed",
+  "historyId" : "ff9d36f39159f4d1f0b1ffe720e8527",
+  "time" : {
+    "start" : 1623263399267,
+    "stop" : 1623263399530,
+    "duration" : 263
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623263399269,
+        "stop" : 1623263399381,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6af91e636fdecf6a",
+        "name" : "Request",
+        "source" : "6af91e636fdecf6a.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "a4b1c185a4ffdc3f",
+        "name" : "Response",
+        "source" : "a4b1c185a4ffdc3f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623263399422,
+        "stop" : 1623263399490,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e75e40c40aca4e33",
+        "name" : "Request",
+        "source" : "e75e40c40aca4e33.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "b093329fdef7369c",
+        "name" : "Response",
+        "source" : "b093329fdef7369c.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate 'Login Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d45b57958f3bab4.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

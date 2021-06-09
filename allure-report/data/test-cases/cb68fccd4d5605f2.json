@@ -1,0 +1,146 @@
+{
+  "uid" : "cb68fccd4d5605f2",
+  "name" : "5.- Validate 'Sauce Labs Backpack' Product Page is displayed",
+  "fullName" : "Complete a purchase..5.- Validate 'Sauce Labs Backpack' Product Page is displayed",
+  "historyId" : "f7382a37b7003ea102d5f185f5027d57",
+  "time" : {
+    "start" : 1623270485125,
+    "stop" : 1623270485891,
+    "duration" : 766
+  },
+  "description" : "Validate 'Sauce Labs Backpack' Product Page is displayed",
+  "descriptionHtml" : "<p>Validate 'Sauce Labs Backpack' Product Page is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270485149,
+        "stop" : 1623270485887,
+        "duration" : 738
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1623270485179,
+          "stop" : 1623270485386,
+          "duration" : 207
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a94b096f8a22c9f7",
+          "name" : "Request",
+          "source" : "a94b096f8a22c9f7.json",
+          "type" : "application/json",
+          "size" : 86
+        }, {
+          "uid" : "9af980417ec617bd",
+          "name" : "Response",
+          "source" : "9af980417ec617bd.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "GET /session/:sessionId/element/1c9ab92d-11fd-4cd5-a8b2-cc6191d99bbd/text",
+        "time" : {
+          "start" : 1623270485481,
+          "stop" : 1623270485551,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "932feb8d296aa8f9",
+          "name" : "Response",
+          "source" : "932feb8d296aa8f9.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c8b9aaa9355d6c6f",
+        "name" : "Request",
+        "source" : "c8b9aaa9355d6c6f.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "89c064042b180fef",
+        "name" : "Response",
+        "source" : "89c064042b180fef.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Complete a purchase"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-6"
+  }, {
+    "name" : "suite",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testClass",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate 'Sauce Labs Backpack' Product Page is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb68fccd4d5605f2.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

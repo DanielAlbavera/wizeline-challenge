@@ -1,0 +1,224 @@
+{
+  "uid" : "1d22479b13430b15",
+  "name" : "5.- Validate 'Login Page' is displayed",
+  "fullName" : "Logout from the home page..5.- Validate 'Login Page' is displayed",
+  "historyId" : "ff9d36f39159f4d1f0b1ffe720e8527",
+  "time" : {
+    "start" : 1623271034899,
+    "stop" : 1623271035136,
+    "duration" : 237
+  },
+  "description" : "Validate 'Login Page' is displayed",
+  "descriptionHtml" : "<p>Validate 'Login Page' is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623271034903,
+        "stop" : 1623271034960,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "595bef4623361926",
+        "name" : "Request",
+        "source" : "595bef4623361926.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "8ea158c902fba9d7",
+        "name" : "Response",
+        "source" : "8ea158c902fba9d7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623271035024,
+        "stop" : 1623271035115,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "593ba9fa021d5c2",
+        "name" : "Request",
+        "source" : "593ba9fa021d5c2.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "2c77938a60195b6a",
+        "name" : "Response",
+        "source" : "2c77938a60195b6a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Logout"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate 'Login Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8b97369d4f6cfe78",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#login-button`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+      "time" : {
+        "start" : 1623270096174,
+        "stop" : 1623270111851,
+        "duration" : 15677
+      }
+    }, {
+      "uid" : "efe3aed415c31cdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623268610600,
+        "stop" : 1623268610895,
+        "duration" : 295
+      }
+    }, {
+      "uid" : "fdecfc8608179e1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267771524,
+        "stop" : 1623267771714,
+        "duration" : 190
+      }
+    }, {
+      "uid" : "2ab5a3d15420a306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267576971,
+        "stop" : 1623267577276,
+        "duration" : 305
+      }
+    }, {
+      "uid" : "e933866dcb35ecde",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addStep is not a function",
+      "time" : {
+        "start" : 1623267408423,
+        "stop" : 1623267408442,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "f85fe6ab70f423f7",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'addStep' of undefined",
+      "time" : {
+        "start" : 1623266798647,
+        "stop" : 1623266798676,
+        "duration" : 29
+      }
+    }, {
+      "uid" : "5e4d92ac25059e03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623265692169,
+        "stop" : 1623265692271,
+        "duration" : 102
+      }
+    }, {
+      "uid" : "1e1c3ef69fc6be9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623265028832,
+        "stop" : 1623265029052,
+        "duration" : 220
+      }
+    }, {
+      "uid" : "69d7da55067d2897",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623264906153,
+        "stop" : 1623264906317,
+        "duration" : 164
+      }
+    }, {
+      "uid" : "42f26c77595810d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623264524479,
+        "stop" : 1623264524729,
+        "duration" : 250
+      }
+    }, {
+      "uid" : "8bd9ab25eba8978e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623264198946,
+        "stop" : 1623264199220,
+        "duration" : 274
+      }
+    }, {
+      "uid" : "9d45b57958f3bab4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623263399267,
+        "stop" : 1623263399530,
+        "duration" : 263
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d22479b13430b15.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

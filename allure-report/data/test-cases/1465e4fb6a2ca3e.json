@@ -1,0 +1,113 @@
+{
+  "uid" : "1465e4fb6a2ca3e",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "fullName" : "Login with a valid user..1.- Open 'Swag Labs' Page",
+  "historyId" : "580e52b1425f29ea8d6cbbaad16030c7",
+  "time" : {
+    "start" : 1623270035972,
+    "stop" : 1623270057416,
+    "duration" : 21444
+  },
+  "description" : "Open 'Swag Labs' Page",
+  "descriptionHtml" : "<p>Open 'Swag Labs' Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1623270036109,
+        "stop" : 1623270057414,
+        "duration" : 21305
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1623270036534,
+          "stop" : 1623270037875,
+          "duration" : 1341
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f546ab9defa59d06",
+          "name" : "Response",
+          "source" : "f546ab9defa59d06.json",
+          "type" : "application/json",
+          "size" : 56
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ace683642b277716",
+        "name" : "Request",
+        "source" : "ace683642b277716.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login with a valid user."
+  }, {
+    "name" : "testClass",
+    "value" : "Login with a valid user."
+  }, {
+    "name" : "testMethod",
+    "value" : "1.- Open 'Swag Labs' Page"
+  }, {
+    "name" : "package",
+    "value" : "Login with a valid user."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1465e4fb6a2ca3e.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

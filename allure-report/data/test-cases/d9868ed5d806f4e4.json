@@ -1,0 +1,221 @@
+{
+  "uid" : "d9868ed5d806f4e4",
+  "name" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+  "fullName" : "Sort products by Price (low to high)..4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+  "historyId" : "58dabc57fa097516052c872b95315c90",
+  "time" : {
+    "start" : 1623270084999,
+    "stop" : 1623270086173,
+    "duration" : 1174
+  },
+  "description" : "Select 'Price (low to high)' option in the 'sort dropdown'",
+  "descriptionHtml" : "<p>Select 'Price (low to high)' option in the 'sort dropdown'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270085009,
+        "stop" : 1623270085111,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f75fde2d64f88d51",
+        "name" : "Request",
+        "source" : "f75fde2d64f88d51.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "2887d4072e7da879",
+        "name" : "Response",
+        "source" : "2887d4072e7da879.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1623270085177,
+        "stop" : 1623270085568,
+        "duration" : 391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ccea010ededdc91",
+        "name" : "Request",
+        "source" : "9ccea010ededdc91.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "f690b6c8644f6375",
+        "name" : "Response",
+        "source" : "f690b6c8644f6375.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1623270085569,
+        "stop" : 1623270085639,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea6b7edc03282f4b",
+        "name" : "Request",
+        "source" : "ea6b7edc03282f4b.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "24ef16b764d69bfa",
+        "name" : "Response",
+        "source" : "24ef16b764d69bfa.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270085640,
+        "stop" : 1623270085710,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ced18c2cf534ab10",
+        "name" : "Request",
+        "source" : "ced18c2cf534ab10.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "605e08a8450887ba",
+        "name" : "Response",
+        "source" : "605e08a8450887ba.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/fa9ebe43-4af2-4191-ba4c-d921aa5bf104/elements",
+      "time" : {
+        "start" : 1623270085821,
+        "stop" : 1623270085897,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3daa76128f002d6e",
+        "name" : "Request",
+        "source" : "3daa76128f002d6e.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "76ef52f20dcbe16c",
+        "name" : "Response",
+        "source" : "76ef52f20dcbe16c.json",
+        "type" : "application/json",
+        "size" : 366
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/5245e79c-5c0d-4bc8-8beb-edc18f19aa6a/click",
+      "time" : {
+        "start" : 1623270085898,
+        "stop" : 1623270086173,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Sort Products - Low to High"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testClass",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testMethod",
+    "value" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'"
+  }, {
+    "name" : "package",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9868ed5d806f4e4.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

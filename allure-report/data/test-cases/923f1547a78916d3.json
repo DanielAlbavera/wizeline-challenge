@@ -1,0 +1,107 @@
+{
+  "uid" : "923f1547a78916d3",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "fullName" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart..1.- Open 'Swag Labs' Page",
+  "historyId" : "f3433174e9006035c3acde9583eaf0a0",
+  "time" : {
+    "start" : 1623270470222,
+    "stop" : 1623270474879,
+    "duration" : 4657
+  },
+  "description" : "Open 'Swag Labs' Page",
+  "descriptionHtml" : "<p>Open 'Swag Labs' Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1623270470234,
+        "stop" : 0,
+        "duration" : -1623270470234
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1623270470269,
+          "stop" : 1623270474877,
+          "duration" : 4608
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "c157c2c36f953bdc",
+        "name" : "Request",
+        "source" : "c157c2c36f953bdc.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add specific product"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-5"
+  }, {
+    "name" : "suite",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "1.- Open 'Swag Labs' Page"
+  }, {
+    "name" : "package",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "923f1547a78916d3.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

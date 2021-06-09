@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623266798327' stop='1623266798445'>
+    <name>Logout from the home page.</name>
+    <title>Logout from the home page.</title>
+    <test-cases>
+        <test-case start='1623266798328' status='broken' stop='1623266798342'>
+            <name>1.- Open 'Swag Labs' Page</name>
+            <title>1.- Open 'Swag Labs' Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623266798333' status='broken' stop='1623266798342'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'addFeature' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'addFeature' of undefined
+                    at Context.&lt;anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:10:24)
+                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623266798345' status='broken' stop='1623266798354'>
+            <name>2.- Login with a valid 'username' and 'password'</name>
+            <title>2.- Login with a valid 'username' and 'password'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623266798349' status='broken' stop='1623266798354'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'addStep' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'addStep' of undefined
+                    at Context.&lt;anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:17:24)
+                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623266798363' status='broken' stop='1623266798380'>
+            <name>3.- Validate 'Inventory Page' is displayed</name>
+            <title>3.- Validate 'Inventory Page' is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623266798365' status='broken' stop='1623266798380'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'addStep' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'addStep' of undefined
+                    at Context.&lt;anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:22:24)
+                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623266798395' status='broken' stop='1623266798413'>
+            <name>4.- Click on the 'burger menu' -> 'LOGOUT' Button</name>
+            <title>4.- Click on the 'burger menu' -> 'LOGOUT' Button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623266798397' status='broken' stop='1623266798413'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'addStep' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'addStep' of undefined
+                    at Context.&lt;anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:27:24)
+                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623266798416' status='broken' stop='1623266798441'>
+            <name>5.- Validate 'Login Page' is displayed</name>
+            <title>5.- Validate 'Login Page' is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623266798418' status='broken' stop='1623266798441'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'addStep' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'addStep' of undefined
+                    at Context.&lt;anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:32:24)
+                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)
+                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

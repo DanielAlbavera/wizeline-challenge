@@ -1,0 +1,113 @@
+{
+  "uid" : "df20233abbf6fb40",
+  "name" : "4.- Click on the 'Sauce Labs Onesie' Product",
+  "fullName" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart..4.- Click on the 'Sauce Labs Onesie' Product",
+  "historyId" : "bd5212118b5d45071c8d7486a5bba7bf",
+  "time" : {
+    "start" : 1623270297720,
+    "stop" : 1623270325646,
+    "duration" : 27926
+  },
+  "description" : "Click on the 'Sauce Labs Onesie' Product",
+  "descriptionHtml" : "<p>Click on the 'Sauce Labs Onesie' Product</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270298097,
+        "stop" : 1623270301837,
+        "duration" : 3740
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8b8b02a46889803",
+        "name" : "Request",
+        "source" : "b8b8b02a46889803.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "2525abcfddd955da",
+        "name" : "Response",
+        "source" : "2525abcfddd955da.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/1782c949-553b-4804-a5ca-ae33d9c23b02/click",
+      "time" : {
+        "start" : 1623270302504,
+        "stop" : 1623270325646,
+        "duration" : 23142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add specific product"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "4.- Click on the 'Sauce Labs Onesie' Product"
+  }, {
+    "name" : "package",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df20233abbf6fb40.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

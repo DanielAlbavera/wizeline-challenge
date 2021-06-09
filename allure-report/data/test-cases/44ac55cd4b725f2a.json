@@ -1,0 +1,113 @@
+{
+  "uid" : "44ac55cd4b725f2a",
+  "name" : "5.- Validate that the products are sorded by 'low to high' price",
+  "fullName" : "Sort products by Price (low to high)..5.- Validate that the products are sorded by 'low to high' price",
+  "historyId" : "d80f84983b637941ea8b495e694635c",
+  "time" : {
+    "start" : 1623270086174,
+    "stop" : 1623270086225,
+    "duration" : 51
+  },
+  "description" : "Validate that the products are sorded by 'low to high' price",
+  "descriptionHtml" : "<p>Validate that the products are sorded by 'low to high' price</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270086196,
+        "stop" : 0,
+        "duration" : -1623270086196
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1623270086215,
+          "stop" : 0,
+          "duration" : -1623270086215
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "58b5e7718ef12e51",
+          "name" : "Request",
+          "source" : "58b5e7718ef12e51.json",
+          "type" : "application/json",
+          "size" : 76
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "18094c8164666244",
+        "name" : "Request",
+        "source" : "18094c8164666244.json",
+        "type" : "application/json",
+        "size" : 76
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Sort Products - Low to High"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testClass",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate that the products are sorded by 'low to high' price"
+  }, {
+    "name" : "package",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44ac55cd4b725f2a.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

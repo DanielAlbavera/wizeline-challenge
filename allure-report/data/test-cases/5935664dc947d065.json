@@ -1,0 +1,125 @@
+{
+  "uid" : "5935664dc947d065",
+  "name" : "9.- Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'",
+  "fullName" : "Complete a purchase..9.- Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'",
+  "historyId" : "536424cfbead1c35af1c256cc76c2b71",
+  "time" : {
+    "start" : 1623270488672,
+    "stop" : 1623270488858,
+    "duration" : 186
+  },
+  "description" : "Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'",
+  "descriptionHtml" : "<p>Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270488684,
+        "stop" : 1623270488760,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9e9319753782971e",
+        "name" : "Request",
+        "source" : "9e9319753782971e.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "76d9aca2c327a13a",
+        "name" : "Response",
+        "source" : "76d9aca2c327a13a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623270488772,
+        "stop" : 1623270488834,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28489f04d98fbba2",
+        "name" : "Request",
+        "source" : "28489f04d98fbba2.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "dbed31f14a850b0d",
+        "name" : "Response",
+        "source" : "dbed31f14a850b0d.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Complete a purchase"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-6"
+  }, {
+    "name" : "suite",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testClass",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testMethod",
+    "value" : "9.- Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'"
+  }, {
+    "name" : "package",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5935664dc947d065.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

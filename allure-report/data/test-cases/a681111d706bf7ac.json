@@ -1,0 +1,183 @@
+{
+  "uid" : "a681111d706bf7ac",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "fullName" : "Logout from the home page..3.- Validate 'Inventory Page' is displayed",
+  "historyId" : "5fa2eedc756e01f766b1eff01c9f3ad8",
+  "time" : {
+    "start" : 1623271041609,
+    "stop" : 1623271042099,
+    "duration" : 490
+  },
+  "description" : "Validate 'Inventory Page' is displayed",
+  "descriptionHtml" : "<p>Validate 'Inventory Page' is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623271041623,
+        "stop" : 1623271041894,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2e5f1dad1a7c71b",
+        "name" : "Request",
+        "source" : "b2e5f1dad1a7c71b.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "28731a58a6771d14",
+        "name" : "Response",
+        "source" : "28731a58a6771d14.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623271041941,
+        "stop" : 1623271042032,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee99696439ed7938",
+        "name" : "Request",
+        "source" : "ee99696439ed7938.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "3622b44930a434f0",
+        "name" : "Response",
+        "source" : "3622b44930a434f0.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Logout"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "3.- Validate 'Inventory Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e07fa62b826fad19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270340355,
+        "stop" : 1623270343693,
+        "duration" : 3338
+      }
+    }, {
+      "uid" : "1849e78b56d12a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623268651689,
+        "stop" : 1623268652981,
+        "duration" : 1292
+      }
+    }, {
+      "uid" : "b6f0680b79a3401b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267787267,
+        "stop" : 1623267787830,
+        "duration" : 563
+      }
+    }, {
+      "uid" : "2433e79a1e118b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267597626,
+        "stop" : 1623267598295,
+        "duration" : 669
+      }
+    }, {
+      "uid" : "6889ef3809bc8fd1",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addStep is not a function",
+      "time" : {
+        "start" : 1623267432210,
+        "stop" : 1623267432227,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "84c7f6d9ba51ea92",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'addStep' of undefined",
+      "time" : {
+        "start" : 1623266798363,
+        "stop" : 1623266798380,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "2837aa936e44ec9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623265742924,
+        "stop" : 1623265743206,
+        "duration" : 282
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a681111d706bf7ac.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

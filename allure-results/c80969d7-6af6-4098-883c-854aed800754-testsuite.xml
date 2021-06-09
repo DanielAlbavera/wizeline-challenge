@@ -1,0 +1,255 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623270233230' stop='1623270349679'>
+    <name>Sort products by Price (low to high).</name>
+    <title>Sort products by Price (low to high).</title>
+    <test-cases>
+        <test-case start='1623270233253' status='passed' stop='1623270287603'>
+            <name>1.- Open 'Swag Labs' Page</name>
+            <title>1.- Open 'Swag Labs' Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+                <label name='feature' value='Sort Products - Low to High'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270233283' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8e4bbb5e-0f73-4e12-9a7d-d7c861fca029-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps>
+                        <step start='1623270233765' status='passed' stop='1623270287552'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Open 'Swag Labs' Page</description>
+        </test-case>
+        <test-case start='1623270287641' status='passed' stop='1623270340328'>
+            <name>2.- Login with a valid 'username' and 'password'</name>
+            <title>2.- Login with a valid 'username' and 'password'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+                <label name='feature' value='Sort Products - Low to High'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270287728' status='passed' stop='1623270318686'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c1a7f1ff-8abe-4b8f-9482-3f26df51498c-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='093a8cba-b08d-480c-b9ec-f758d17a26bf-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270320037' status='passed' stop='1623270321663'>
+                    <name>POST /session/:sessionId/element/8ed1e0bd-dfac-4eb6-a2b5-db25f192c674/clear</name>
+                    <title>POST /session/:sessionId/element/8ed1e0bd-dfac-4eb6-a2b5-db25f192c674/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623270321675' status='passed' stop='1623270325256'>
+                    <name>POST /session/:sessionId/element/8ed1e0bd-dfac-4eb6-a2b5-db25f192c674/value</name>
+                    <title>POST /session/:sessionId/element/8ed1e0bd-dfac-4eb6-a2b5-db25f192c674/value</title>
+                    <attachments>
+                        <attachment title='Request' source='a092694e-c873-44b6-8c37-44643fa4032b-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270325263' status='passed' stop='1623270327010'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='172b3789-faac-4ad1-88f5-2e23f2abfa19-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='61f11cdc-584a-4f9c-aebc-c356ef3bdc81-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270327062' status='passed' stop='1623270328972'>
+                    <name>POST /session/:sessionId/element/cc91d5d7-96b9-4ad0-8f31-b455b8fc77b9/clear</name>
+                    <title>POST /session/:sessionId/element/cc91d5d7-96b9-4ad0-8f31-b455b8fc77b9/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623270328976' status='passed' stop='1623270329639'>
+                    <name>POST /session/:sessionId/element/cc91d5d7-96b9-4ad0-8f31-b455b8fc77b9/value</name>
+                    <title>POST /session/:sessionId/element/cc91d5d7-96b9-4ad0-8f31-b455b8fc77b9/value</title>
+                    <attachments>
+                        <attachment title='Request' source='65976a4a-7044-4afb-8fb1-38aa30a6f113-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270329640' status='passed' stop='1623270330064'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a6e9eed9-0e8f-446d-aa3d-477fa390239c-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='f2443f91-fe30-4453-9cf0-3e197b15ea37-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270330199' status='passed' stop='1623270340328'>
+                    <name>POST /session/:sessionId/element/48a8a67d-1927-448f-a4be-e996d6016e6d/click</name>
+                    <title>POST /session/:sessionId/element/48a8a67d-1927-448f-a4be-e996d6016e6d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='4420ab1d-c36d-4eaa-9729-34f7b9733988-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <description type='text'>Login with a valid 'username' and 'password'</description>
+        </test-case>
+        <test-case start='1623270340329' status='passed' stop='1623270344332'>
+            <name>3.- Validate 'Inventory Page' is displayed</name>
+            <title>3.- Validate 'Inventory Page' is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+                <label name='feature' value='Sort Products - Low to High'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270340362' status='passed' stop='1623270342565'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f6041ac4-d387-4d1e-9dce-b833c06b1662-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='d78f8ab2-d851-4a76-99f5-c540803dc656-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270342695' status='passed' stop='1623270343912'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a71aa7b3-edbe-42b0-8f4b-fa70a5079beb-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='e9cc3001-36f8-4431-8f6e-3caa53e0ea47-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Validate 'Inventory Page' is displayed</description>
+        </test-case>
+        <test-case start='1623270344333' status='passed' stop='1623270349577'>
+            <name>4.- Select 'Price (low to high)' option in the 'sort dropdown'</name>
+            <title>4.- Select 'Price (low to high)' option in the 'sort dropdown'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+                <label name='feature' value='Sort Products - Low to High'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270344386' status='passed' stop='1623270345245'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='02c669d9-8a92-463d-bd43-9a0885131bec-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='948693df-a130-486c-b0d1-cdc614531c86-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270345488' status='passed' stop='1623270346608'>
+                    <name>GET /session/:sessionId/element/18c317c5-ec1e-4c10-9f77-4c082d45b8d6/displayed</name>
+                    <title>GET /session/:sessionId/element/18c317c5-ec1e-4c10-9f77-4c082d45b8d6/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='1dd7a34b-ce13-4b85-ad7b-0a5449bca4f0-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270346615' status='passed' stop='1623270347992'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0cdb536d-f52f-4105-8b31-c32e397ffd62-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='04090a3a-0a65-4494-82f0-b4dae94a8228-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270347995' status='passed' stop='1623270348575'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e5884192-549f-4ff4-8e12-0a06ecc2f3bc-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='b39526b6-a6d1-435e-9b71-c9fe5590eeb3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270348682' status='passed' stop='1623270348985'>
+                    <name>POST /session/:sessionId/element/18c317c5-ec1e-4c10-9f77-4c082d45b8d6/elements</name>
+                    <title>POST /session/:sessionId/element/18c317c5-ec1e-4c10-9f77-4c082d45b8d6/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ad45b635-3a9e-49f8-8b3e-84ffb011d425-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='1877b18c-ffff-4262-adb5-b6e02fc4fd20-attachment.json' type='application/json' size='366'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270348985' status='passed' stop='1623270349577'>
+                    <name>POST /session/:sessionId/element/c779f7b9-8563-400f-baff-dcd0180bad36/click</name>
+                    <title>POST /session/:sessionId/element/c779f7b9-8563-400f-baff-dcd0180bad36/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Select 'Price (low to high)' option in the 'sort dropdown'</description>
+        </test-case>
+        <test-case start='1623270349582' status='passed' stop='1623270349659'>
+            <name>5.- Validate that the products are sorded by 'low to high' price</name>
+            <title>5.- Validate that the products are sorded by 'low to high' price</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-3'/>
+                <label name='feature' value='Sort Products - Low to High'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270349587' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9bbd352f-05c1-4df2-aa9b-70dfde7d224b-attachment.json' type='application/json' size='76'/>
+                    </attachments>
+                    <steps>
+                        <step start='1623270349621' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='aaf0ff28-b6b6-467a-9b0a-a41ab7007b81-attachment.json' type='application/json' size='76'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Validate that the products are sorded by 'low to high' price</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

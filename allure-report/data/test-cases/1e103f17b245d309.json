@@ -1,0 +1,86 @@
+{
+  "uid" : "1e103f17b245d309",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "fullName" : "Logout from the home page..3.- Validate 'Inventory Page' is displayed",
+  "historyId" : "200c5fafa26f8518e3e427bd340900ff",
+  "time" : {
+    "start" : 1623267408350,
+    "stop" : 1623267408379,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "allureReporter.addStep is not a function",
+  "statusTrace" : "TypeError: allureReporter.addStep is not a function\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:22:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "allureReporter.addStep is not a function",
+    "statusTrace" : "TypeError: allureReporter.addStep is not a function\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:22:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1623267408355,
+        "stop" : 1623267408379,
+        "duration" : 24
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: allureReporter.addStep is not a function\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:22:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "3.- Validate 'Inventory Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e103f17b245d309.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

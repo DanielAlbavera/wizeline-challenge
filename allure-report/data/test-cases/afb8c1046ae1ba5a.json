@@ -1,0 +1,107 @@
+{
+  "uid" : "afb8c1046ae1ba5a",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "fullName" : "Login with an invalid user..1.- Open 'Swag Labs' Page",
+  "historyId" : "ca3ab06f025c4ce65272e1e4995cbf85",
+  "time" : {
+    "start" : 1623270233246,
+    "stop" : 1623270287150,
+    "duration" : 53904
+  },
+  "description" : "Open 'Swag Labs' Page",
+  "descriptionHtml" : "<p>Open 'Swag Labs' Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1623270233264,
+        "stop" : 0,
+        "duration" : -1623270233264
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1623270233604,
+          "stop" : 1623270287148,
+          "duration" : 53544
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "b95b4e63c10e53c3",
+        "name" : "Request",
+        "source" : "b95b4e63c10e53c3.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Invalid Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login with an invalid user."
+  }, {
+    "name" : "testClass",
+    "value" : "Login with an invalid user."
+  }, {
+    "name" : "testMethod",
+    "value" : "1.- Open 'Swag Labs' Page"
+  }, {
+    "name" : "package",
+    "value" : "Login with an invalid user."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afb8c1046ae1ba5a.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

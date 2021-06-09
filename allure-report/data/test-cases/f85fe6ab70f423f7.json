@@ -1,0 +1,86 @@
+{
+  "uid" : "f85fe6ab70f423f7",
+  "name" : "5.- Validate 'Login Page' is displayed",
+  "fullName" : "Logout from the home page..5.- Validate 'Login Page' is displayed",
+  "historyId" : "ff9d36f39159f4d1f0b1ffe720e8527",
+  "time" : {
+    "start" : 1623266798647,
+    "stop" : 1623266798676,
+    "duration" : 29
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'addStep' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'addStep' of undefined\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:32:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'addStep' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'addStep' of undefined\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:32:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1623266798652,
+        "stop" : 1623266798676,
+        "duration" : 24
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: Cannot read property 'addStep' of undefined\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:32:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate 'Login Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f85fe6ab70f423f7.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

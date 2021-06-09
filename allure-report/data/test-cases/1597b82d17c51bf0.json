@@ -1,0 +1,215 @@
+{
+  "uid" : "1597b82d17c51bf0",
+  "name" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+  "fullName" : "Sort products by Price (low to high)..4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+  "historyId" : "291bd308c30d7a62fea5a0171e65385b",
+  "time" : {
+    "start" : 1623270344333,
+    "stop" : 1623270349577,
+    "duration" : 5244
+  },
+  "description" : "Select 'Price (low to high)' option in the 'sort dropdown'",
+  "descriptionHtml" : "<p>Select 'Price (low to high)' option in the 'sort dropdown'</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270344386,
+        "stop" : 1623270345245,
+        "duration" : 859
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a278f8a8559c9605",
+        "name" : "Request",
+        "source" : "a278f8a8559c9605.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "45f1672aa7f7f4fc",
+        "name" : "Response",
+        "source" : "45f1672aa7f7f4fc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/18c317c5-ec1e-4c10-9f77-4c082d45b8d6/displayed",
+      "time" : {
+        "start" : 1623270345488,
+        "stop" : 1623270346608,
+        "duration" : 1120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43273edad91e69db",
+        "name" : "Response",
+        "source" : "43273edad91e69db.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1623270346615,
+        "stop" : 1623270347992,
+        "duration" : 1377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "285d9fa6b62ae1b0",
+        "name" : "Request",
+        "source" : "285d9fa6b62ae1b0.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "17447842c076e1a6",
+        "name" : "Response",
+        "source" : "17447842c076e1a6.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270347995,
+        "stop" : 1623270348575,
+        "duration" : 580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b797245dff8b592d",
+        "name" : "Request",
+        "source" : "b797245dff8b592d.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "873124f9bc680b79",
+        "name" : "Response",
+        "source" : "873124f9bc680b79.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/18c317c5-ec1e-4c10-9f77-4c082d45b8d6/elements",
+      "time" : {
+        "start" : 1623270348682,
+        "stop" : 1623270348985,
+        "duration" : 303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3923876fc79a3a7d",
+        "name" : "Request",
+        "source" : "3923876fc79a3a7d.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "947bf7e5acf75a5a",
+        "name" : "Response",
+        "source" : "947bf7e5acf75a5a.json",
+        "type" : "application/json",
+        "size" : 366
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c779f7b9-8563-400f-baff-dcd0180bad36/click",
+      "time" : {
+        "start" : 1623270348985,
+        "stop" : 1623270349577,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Sort Products - Low to High"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-3"
+  }, {
+    "name" : "suite",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testClass",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "testMethod",
+    "value" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'"
+  }, {
+    "name" : "package",
+    "value" : "Sort products by Price (low to high)."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1597b82d17c51bf0.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

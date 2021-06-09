@@ -1,0 +1,81 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "f309c23402988609581ea6148951bd2f",
+    "name" : "Complete a purchase.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 28,
+      "unknown" : 0,
+      "total" : 28
+    }
+  }, {
+    "uid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+    "name" : "Sort products by Price (low to high).",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "96376e95299763454fddadd0a6474b50",
+    "name" : "Add multiple items to the shopping cart.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "2056f74608e52d9785a9751d075c30e1",
+    "name" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "e4090d6afe522f256dbb0f4b45f03e14",
+    "name" : "Logout from the home page.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "3a3c21c958c3c2630b0fbfe4e286b2bd",
+    "name" : "Login with a valid user.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "172583db104e06f6d4dda3f0a46da4d1",
+    "name" : "Login with an invalid user.",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

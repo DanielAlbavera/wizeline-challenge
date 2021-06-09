@@ -1,0 +1,86 @@
+{
+  "uid" : "f1316504abc22982",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "fullName" : "Logout from the home page..2.- Login with a valid 'username' and 'password'",
+  "historyId" : "ac5bcd147f48b04427d562edb76fdae8",
+  "time" : {
+    "start" : 1623267408305,
+    "stop" : 1623267408322,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "allureReporter.addStep is not a function",
+  "statusTrace" : "TypeError: allureReporter.addStep is not a function\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:17:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "allureReporter.addStep is not a function",
+    "statusTrace" : "TypeError: allureReporter.addStep is not a function\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:17:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1623267408307,
+        "stop" : 1623267408322,
+        "duration" : 15
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: allureReporter.addStep is not a function\n                    at Context.<anonymous> (/home/danix/Documentos/javascript/automation/wizeline-challenge/test/specs/logout.e2e.js:17:24)\n                    at Context.executeAsync (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/danix/Documentos/javascript/automation/wizeline-challenge/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "2.- Login with a valid 'username' and 'password'"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f1316504abc22982.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

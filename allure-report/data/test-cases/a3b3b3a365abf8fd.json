@@ -1,0 +1,161 @@
+{
+  "uid" : "a3b3b3a365abf8fd",
+  "name" : "6.- Click on the 'cart' Button",
+  "fullName" : "Complete a purchase..6.- Click on the 'cart' Button",
+  "historyId" : "8c53338400713db8ff30b60fdbb1381d",
+  "time" : {
+    "start" : 1623270485892,
+    "stop" : 1623270487327,
+    "duration" : 1435
+  },
+  "description" : "Click on the 'cart' Button",
+  "descriptionHtml" : "<p>Click on the 'cart' Button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270485912,
+        "stop" : 1623270485985,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "77645b66f28f21d4",
+        "name" : "Request",
+        "source" : "77645b66f28f21d4.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "5e0ebf08b4f07ce1",
+        "name" : "Response",
+        "source" : "5e0ebf08b4f07ce1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/67d5dea6-bf54-42f5-93b1-62c89254ee61/displayed",
+      "time" : {
+        "start" : 1623270486032,
+        "stop" : 1623270486156,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d65c0912b08eb6ec",
+        "name" : "Response",
+        "source" : "d65c0912b08eb6ec.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1623270486157,
+        "stop" : 1623270486377,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34a2c37075ae5be6",
+        "name" : "Request",
+        "source" : "34a2c37075ae5be6.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "a94b2373344e2aca",
+        "name" : "Response",
+        "source" : "a94b2373344e2aca.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/67d5dea6-bf54-42f5-93b1-62c89254ee61/click",
+      "time" : {
+        "start" : 1623270486383,
+        "stop" : 1623270487327,
+        "duration" : 944
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Complete a purchase"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-6"
+  }, {
+    "name" : "suite",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testClass",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testMethod",
+    "value" : "6.- Click on the 'cart' Button"
+  }, {
+    "name" : "package",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3b3b3a365abf8fd.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

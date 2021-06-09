@@ -1,0 +1,125 @@
+{
+  "uid" : "91a7a8b68c398558",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "fullName" : "Complete a purchase..3.- Validate 'Inventory Page' is displayed",
+  "historyId" : "4aad082f83a7b8377cf6e3c8ad5e39f5",
+  "time" : {
+    "start" : 1623270294452,
+    "stop" : 1623270299821,
+    "duration" : 5369
+  },
+  "description" : "Validate 'Inventory Page' is displayed",
+  "descriptionHtml" : "<p>Validate 'Inventory Page' is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270294463,
+        "stop" : 1623270297735,
+        "duration" : 3272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7de3239e8bdba309",
+        "name" : "Request",
+        "source" : "7de3239e8bdba309.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "43a312a7e68582d5",
+        "name" : "Response",
+        "source" : "43a312a7e68582d5.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623270297823,
+        "stop" : 1623270299425,
+        "duration" : 1602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc49f5fd5f740bc4",
+        "name" : "Request",
+        "source" : "dc49f5fd5f740bc4.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "8f4b771cd727eac",
+        "name" : "Response",
+        "source" : "8f4b771cd727eac.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Complete a purchase"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testClass",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testMethod",
+    "value" : "3.- Validate 'Inventory Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91a7a8b68c398558.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}
