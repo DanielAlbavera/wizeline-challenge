@@ -1,0 +1,26 @@
+{
+    "swag-labs" : {
+        "login" : {
+            "username" : "standard_user",
+            "valid-password" : "secret_sauce",
+            "invalid-password" : "wrong-password-dude!",
+            "error-message" : "Epic sadface: Username and password do not match any user in this service"
+        },
+        "inventory" : {
+            "dropdown-options" : {
+                "az" : "Name (A to Z)",
+                "za" : "Name (Z to A)",
+                "lohi" : "Price (low to high)",
+                "hilo" : "Price (high to low)"
+            },
+            "product" : "Sauce Labs Onesie",
+            "product2" : "Sauce Labs Backpack"
+
+        },
+        "checkout" : {
+            "name" : "Jhon",
+            "lastName" : "Due",
+            "zipCode" : "1234"
+        }
+    }
+}
