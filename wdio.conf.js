@@ -1,8 +1,11 @@
+const allure = require('allure-commandline');
+
 const drivers = {
-    chrome: { version: '86.0.4240.22' }, // https://chromedriver.chromium.org/
-    firefox: { version: '0.27.0' }, // https://github.com/mozilla/geckodriver/releases
-    chromiumedge: { version: '85.0.564.70' } // https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+    chrome: { version: 'latest' }, // https://chromedriver.chromium.org/
+    firefox: { version: 'latest' }, // https://github.com/mozilla/geckodriver/releases
+    chromiumedge: { version: 'latest' } // https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 }
+
 exports.config = {
     //
     // ====================
@@ -143,17 +146,17 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     
     // JUST CHROME DRIVER uncomment this line
-    services: ['chromedriver','firefox-profile','crossbrowsertesting'],
+    //services: ['chromedriver','firefox-profile','crossbrowsertesting'],
 
     // use selenium standalone uncomment this lines
     
-    // services: [
-    //     ['selenium-standalone', {
-    //         logPath: 'logs',
-    //         installArgs: { drivers }, // drivers to install
-    //         args: { drivers } // drivers to use
-    //     }]
-    // ],
+    services: [
+        ['selenium-standalone', {
+            logPath: 'logs',
+            installArgs: { drivers }, // drivers to install
+            args: { drivers } // drivers to use
+        }]
+    ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -175,7 +178,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
+    reporters: ['spec',['allure', {outputDir: 'allure-results',disableWebdriverScreenshotsReporting: false}]],
 
 
     
@@ -312,6 +315,28 @@ exports.config = {
      */
     // onComplete: function(exitCode, config, capabilities, results) {
     // },
+
+    onComplete: function() {
+        const reportError = new Error('Could not generate Allure report')
+        const generation = allure(['generate', 'allure-results', '--clean'])
+        return new Promise((resolve, reject) => {
+            const generationTimeout = setTimeout(
+                () => reject(reportError),
+                5000)
+
+            generation.on('exit', function(exitCode) {
+                clearTimeout(generationTimeout)
+
+                if (exitCode !== 0) {
+                    return reject(reportError)
+                }
+
+                console.log('Allure report successfully generated')
+                resolve()
+            })
+        })
+    },
+
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

@@ -1,0 +1,125 @@
+{
+  "uid" : "8da1ad4f10ae59e4",
+  "name" : "7.- Validate that the 'Cart' Page is displayed",
+  "fullName" : "Complete a purchase..7.- Validate that the 'Cart' Page is displayed",
+  "historyId" : "54ddbfa9d0b6a85d3a95e915dcc9689c",
+  "time" : {
+    "start" : 1623270487328,
+    "stop" : 1623270487611,
+    "duration" : 283
+  },
+  "description" : "Validate that the 'Cart' Page is displayed",
+  "descriptionHtml" : "<p>Validate that the 'Cart' Page is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270487332,
+        "stop" : 1623270487414,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eeef01c727bfc801",
+        "name" : "Request",
+        "source" : "eeef01c727bfc801.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "552ab3ebcf96be57",
+        "name" : "Response",
+        "source" : "552ab3ebcf96be57.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623270487445,
+        "stop" : 1623270487554,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7461ef71f81ce861",
+        "name" : "Request",
+        "source" : "7461ef71f81ce861.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "bb072ddf0a99310b",
+        "name" : "Response",
+        "source" : "bb072ddf0a99310b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Complete a purchase"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-6"
+  }, {
+    "name" : "suite",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testClass",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testMethod",
+    "value" : "7.- Validate that the 'Cart' Page is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8da1ad4f10ae59e4.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

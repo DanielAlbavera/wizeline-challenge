@@ -1,0 +1,92 @@
+{
+  "uid" : "f693c8ef0127be25",
+  "name" : "4.- Add multiple items to the shopping cart",
+  "fullName" : "Add multiple items to the shopping cart..4.- Add multiple items to the shopping cart",
+  "historyId" : "61cc02abb49b4411f10f23198e3c9ffe",
+  "time" : {
+    "start" : 1623270345395,
+    "stop" : 1623270345495,
+    "duration" : 100
+  },
+  "description" : "Add multiple items to the shopping cart",
+  "descriptionHtml" : "<p>Add multiple items to the shopping cart</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270345396,
+        "stop" : 0,
+        "duration" : -1623270345396
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7ab34d3f255214f4",
+        "name" : "Request",
+        "source" : "7ab34d3f255214f4.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add multiple items"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-4"
+  }, {
+    "name" : "suite",
+    "value" : "Add multiple items to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add multiple items to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "4.- Add multiple items to the shopping cart"
+  }, {
+    "name" : "package",
+    "value" : "Add multiple items to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f693c8ef0127be25.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

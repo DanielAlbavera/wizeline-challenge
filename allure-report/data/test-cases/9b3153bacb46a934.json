@@ -1,0 +1,146 @@
+{
+  "uid" : "9b3153bacb46a934",
+  "name" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "fullName" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart..5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "historyId" : "f7ee5c0432d52a0b066649dfda08feb7",
+  "time" : {
+    "start" : 1623270325647,
+    "stop" : 1623270331047,
+    "duration" : 5400
+  },
+  "description" : "Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "descriptionHtml" : "<p>Validate 'Sauce Labs Onesie' Product Page is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270325649,
+        "stop" : 1623270330083,
+        "duration" : 4434
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1623270325726,
+          "stop" : 1623270329140,
+          "duration" : 3414
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bbe18979338b4d02",
+          "name" : "Request",
+          "source" : "bbe18979338b4d02.json",
+          "type" : "application/json",
+          "size" : 86
+        }, {
+          "uid" : "f1548d03099b41bc",
+          "name" : "Response",
+          "source" : "f1548d03099b41bc.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "28e48d6bb77aa8b1",
+        "name" : "Request",
+        "source" : "28e48d6bb77aa8b1.json",
+        "type" : "application/json",
+        "size" : 86
+      }, {
+        "uid" : "8cecca7d6f3f4b47",
+        "name" : "Response",
+        "source" : "8cecca7d6f3f4b47.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/d92fdd5c-6d62-42d2-bd4d-c655c89832c9/text",
+      "time" : {
+        "start" : 1623270330251,
+        "stop" : 1623270331046,
+        "duration" : 795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f2f5a78ba04d4fa9",
+        "name" : "Response",
+        "source" : "f2f5a78ba04d4fa9.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add specific product"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b3153bacb46a934.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

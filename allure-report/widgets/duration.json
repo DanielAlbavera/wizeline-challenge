@@ -1,0 +1,801 @@
+[ {
+  "uid" : "a3b3b3a365abf8fd",
+  "name" : "6.- Click on the 'cart' Button",
+  "time" : {
+    "start" : 1623270485892,
+    "stop" : 1623270487327,
+    "duration" : 1435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b3153bacb46a934",
+  "name" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "time" : {
+    "start" : 1623270325647,
+    "stop" : 1623270331047,
+    "duration" : 5400
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6674e6dfd5a9496a",
+  "name" : "5.- Validate all the items have been added to the shopping cart",
+  "time" : {
+    "start" : 1623270093392,
+    "stop" : 1623270093415,
+    "duration" : 23
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f94197e3abdfd6d",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270481500,
+    "stop" : 1623270483698,
+    "duration" : 2198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45f47ddbea265780",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270247808,
+    "stop" : 1623270289825,
+    "duration" : 42017
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "923f1547a78916d3",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270470222,
+    "stop" : 1623270474879,
+    "duration" : 4657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6be02efb229fc32",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270057351,
+    "stop" : 1623270081560,
+    "duration" : 24209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8e6bd2780afd929",
+  "name" : "4.- Add multiple items to the shopping cart",
+  "time" : {
+    "start" : 1623270093386,
+    "stop" : 1623270093391,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "957e1678cd2f4d60",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623271023057,
+    "stop" : 1623271026508,
+    "duration" : 3451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a681111d706bf7ac",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623271041609,
+    "stop" : 1623271042099,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b4aa7f120a4e705",
+  "name" : "9.- Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'",
+  "time" : {
+    "start" : 1623270340599,
+    "stop" : 1623270342995,
+    "duration" : 2396
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d22479b13430b15",
+  "name" : "5.- Validate 'Login Page' is displayed",
+  "time" : {
+    "start" : 1623271034899,
+    "stop" : 1623271035136,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69c599f0818e5811",
+  "name" : "5.- Validate all the items have been added to the shopping cart",
+  "time" : {
+    "start" : 1623270345512,
+    "stop" : 1623270345877,
+    "duration" : 365
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb68fccd4d5605f2",
+  "name" : "5.- Validate 'Sauce Labs Backpack' Product Page is displayed",
+  "time" : {
+    "start" : 1623270485125,
+    "stop" : 1623270485891,
+    "duration" : 766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0dbd746636e7647",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270474778,
+    "stop" : 1623270480080,
+    "duration" : 5302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4c804cb426084b",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270035953,
+    "stop" : 1623270057338,
+    "duration" : 21385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7e20371e78dcbfc",
+  "name" : "12.- Validate that the 'CHECKOUT: OVERVIEW' Page is displayed",
+  "time" : {
+    "start" : 1623270490484,
+    "stop" : 1623270490581,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29e373adb8b6ecc5",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270233275,
+    "stop" : 1623270293258,
+    "duration" : 59983
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a34b2766907919b",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270057339,
+    "stop" : 1623270084010,
+    "duration" : 26671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df6f5b3aa1d304e1",
+  "name" : "5.- Validate that the products are sorded by 'low to high' price",
+  "time" : {
+    "start" : 1623270349582,
+    "stop" : 1623270349659,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1597b82d17c51bf0",
+  "name" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+  "time" : {
+    "start" : 1623270344333,
+    "stop" : 1623270349577,
+    "duration" : 5244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "897efa777fd66122",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270035981,
+    "stop" : 1623270057349,
+    "duration" : 21368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f92e1cde55d648d",
+  "name" : "13.- Click on 'FINISH' Button",
+  "time" : {
+    "start" : 1623270490581,
+    "stop" : 1623270491222,
+    "duration" : 641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7af91072554076",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270292717,
+    "stop" : 1623270297719,
+    "duration" : 5002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5613667fb76b76b",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623271034138,
+    "stop" : 1623271038331,
+    "duration" : 4193
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abbc24f0500f9854",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270233253,
+    "stop" : 1623270287603,
+    "duration" : 54350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d4cec9c660f19f0",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270480081,
+    "stop" : 1623270481949,
+    "duration" : 1868
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2683b60a301bce4e",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270289827,
+    "stop" : 1623270342820,
+    "duration" : 52993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b759087b5821c43",
+  "name" : "14.- Validate that the 'CHECKOUT: COMPLETE' Page is displayed",
+  "time" : {
+    "start" : 1623270362164,
+    "stop" : 1623270362409,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44ac55cd4b725f2a",
+  "name" : "5.- Validate that the products are sorded by 'low to high' price",
+  "time" : {
+    "start" : 1623270086174,
+    "stop" : 1623270086225,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4851148cf2ac443c",
+  "name" : "6.- Click on the 'cart' Button",
+  "time" : {
+    "start" : 1623270330161,
+    "stop" : 1623270332914,
+    "duration" : 2753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81c5cae5e6829764",
+  "name" : "4.- Click on the 'Sauce Labs Backpack' Product",
+  "time" : {
+    "start" : 1623270481963,
+    "stop" : 1623270485125,
+    "duration" : 3162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0de324bdaa8158c",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270084011,
+    "stop" : 1623270084998,
+    "duration" : 987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "571671cf26c18fc3",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623271038341,
+    "stop" : 1623271041608,
+    "duration" : 3267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f3494efbcf18423",
+  "name" : "4.- Click on the 'burger menu' -> 'LOGOUT' Button",
+  "time" : {
+    "start" : 1623271030077,
+    "stop" : 1623271034899,
+    "duration" : 4822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da032c7d9524cc6f",
+  "name" : "8.- Click on 'CHECKOUT' Button",
+  "time" : {
+    "start" : 1623270333816,
+    "stop" : 1623270340598,
+    "duration" : 6782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50d764f4c6bce663",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270469863,
+    "stop" : 1623270474776,
+    "duration" : 4913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56f351c2dde3262a",
+  "name" : "5.- Validate 'Login Page' is displayed",
+  "time" : {
+    "start" : 1623271043811,
+    "stop" : 1623271044011,
+    "duration" : 200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "595d68b3fa94517e",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270287641,
+    "stop" : 1623270340328,
+    "duration" : 52687
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abe8262b17712598",
+  "name" : "4.- Click on the 'Sauce Labs Backpack' Product",
+  "time" : {
+    "start" : 1623270299824,
+    "stop" : 1623270328608,
+    "duration" : 28784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea8e226ed16117ab",
+  "name" : "11.- Click on 'CONTINUE' Button",
+  "time" : {
+    "start" : 1623270352932,
+    "stop" : 1623270358937,
+    "duration" : 6005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c746d682736f4927",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270233305,
+    "stop" : 1623270264176,
+    "duration" : 30871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9868ed5d806f4e4",
+  "name" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+  "time" : {
+    "start" : 1623270084999,
+    "stop" : 1623270086173,
+    "duration" : 1174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "424eac64f2a3af5b",
+  "name" : "4.- Click on the 'burger menu' -> 'LOGOUT' Button",
+  "time" : {
+    "start" : 1623271042110,
+    "stop" : 1623271043809,
+    "duration" : 1699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26bc90dcf713106a",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623271026509,
+    "stop" : 1623271029739,
+    "duration" : 3230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb3f36821a9811ed",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270264177,
+    "stop" : 1623270293400,
+    "duration" : 29223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2d277014ec46be5",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270293259,
+    "stop" : 1623270340601,
+    "duration" : 47342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "789f81774a5430c1",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623271029739,
+    "stop" : 1623271030073,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da81e05605129df",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270340329,
+    "stop" : 1623270344332,
+    "duration" : 4003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60d4d3d2c26fbdfd",
+  "name" : "13.- Click on 'FINISH' Button",
+  "time" : {
+    "start" : 1623270360903,
+    "stop" : 1623270362164,
+    "duration" : 1261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6da6741781edd4d",
+  "name" : "8.- Click on 'CHECKOUT' Button",
+  "time" : {
+    "start" : 1623270487614,
+    "stop" : 1623270488672,
+    "duration" : 1058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ffefae8211b172da",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270474880,
+    "stop" : 1623270481499,
+    "duration" : 6619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5935664dc947d065",
+  "name" : "9.- Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'",
+  "time" : {
+    "start" : 1623270488672,
+    "stop" : 1623270488858,
+    "duration" : 186
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9ccb03f82097d06",
+  "name" : "10.- Insert 'First Name', 'Last Name', and 'Zip Code'",
+  "time" : {
+    "start" : 1623270488868,
+    "stop" : 1623270489748,
+    "duration" : 880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11f4c4441c5d1c6b",
+  "name" : "5.- Validate 'Sauce Labs Backpack' Product Page is displayed",
+  "time" : {
+    "start" : 1623270328609,
+    "stop" : 1623270330160,
+    "duration" : 1551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67405b0e5a8ed34a",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270287152,
+    "stop" : 1623270335197,
+    "duration" : 48045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7c787e4cd0332f3",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270342821,
+    "stop" : 1623270345337,
+    "duration" : 2516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1465e4fb6a2ca3e",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270035972,
+    "stop" : 1623270057416,
+    "duration" : 21444
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40f57ed38f88f953",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270081561,
+    "stop" : 1623270082597,
+    "duration" : 1036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "264a6f532fb9549",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270233364,
+    "stop" : 1623270264176,
+    "duration" : 30812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e55bba3c3e1a1304",
+  "name" : "11.- Click on 'CONTINUE' Button",
+  "time" : {
+    "start" : 1623270489749,
+    "stop" : 1623270490483,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "219513195e6e5124",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270264177,
+    "stop" : 1623270292717,
+    "duration" : 28540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e1882edea0e2ccd",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270340603,
+    "stop" : 1623270345618,
+    "duration" : 5015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e217a31266e0c24c",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270335198,
+    "stop" : 1623270344966,
+    "duration" : 9768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da774484a5de48ad",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270057417,
+    "stop" : 1623270084028,
+    "duration" : 26611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c50ef65c6233854",
+  "name" : "4.- Click on the 'Sauce Labs Onesie' Product",
+  "time" : {
+    "start" : 1623270483699,
+    "stop" : 1623270485581,
+    "duration" : 1882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb248b23fe12f88b",
+  "name" : "12.- Validate that the 'CHECKOUT: OVERVIEW' Page is displayed",
+  "time" : {
+    "start" : 1623270358938,
+    "stop" : 1623270360902,
+    "duration" : 1964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bed1cf8c17e99605",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "time" : {
+    "start" : 1623270057367,
+    "stop" : 1623270093116,
+    "duration" : 35749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ef5ad8238a0910f",
+  "name" : "7.- Validate that the 'Cart' Page is displayed",
+  "time" : {
+    "start" : 1623270332915,
+    "stop" : 1623270333815,
+    "duration" : 900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49deb88a45cd2b39",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270035973,
+    "stop" : 1623270057365,
+    "duration" : 21392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f693c8ef0127be25",
+  "name" : "4.- Add multiple items to the shopping cart",
+  "time" : {
+    "start" : 1623270345395,
+    "stop" : 1623270345495,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91a7a8b68c398558",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270294452,
+    "stop" : 1623270299821,
+    "duration" : 5369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fad21ad4556619cf",
+  "name" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+  "time" : {
+    "start" : 1623270485581,
+    "stop" : 1623270486060,
+    "duration" : 479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d221746675a0f2",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270084029,
+    "stop" : 1623270084997,
+    "duration" : 968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df20233abbf6fb40",
+  "name" : "4.- Click on the 'Sauce Labs Onesie' Product",
+  "time" : {
+    "start" : 1623270297720,
+    "stop" : 1623270325646,
+    "duration" : 27926
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8da1ad4f10ae59e4",
+  "name" : "7.- Validate that the 'Cart' Page is displayed",
+  "time" : {
+    "start" : 1623270487328,
+    "stop" : 1623270487611,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c30197a91c3de0cb",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "time" : {
+    "start" : 1623270093117,
+    "stop" : 1623270093385,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afb8c1046ae1ba5a",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "time" : {
+    "start" : 1623270233246,
+    "stop" : 1623270287150,
+    "duration" : 53904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "316f4ec055d0ef29",
+  "name" : "10.- Insert 'First Name', 'Last Name', and 'Zip Code'",
+  "time" : {
+    "start" : 1623270342996,
+    "stop" : 1623270352931,
+    "duration" : 9935
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e92054ffd7ad91b",
+  "name" : "14.- Validate that the 'CHECKOUT: COMPLETE' Page is displayed",
+  "time" : {
+    "start" : 1623270491223,
+    "stop" : 1623270491561,
+    "duration" : 338
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

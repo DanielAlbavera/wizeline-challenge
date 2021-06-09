@@ -1,0 +1,107 @@
+{
+  "uid" : "49deb88a45cd2b39",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "fullName" : "Add multiple items to the shopping cart..1.- Open 'Swag Labs' Page",
+  "historyId" : "f6a1d28a72f465f0ac15b8a4aa04939d",
+  "time" : {
+    "start" : 1623270035973,
+    "stop" : 1623270057365,
+    "duration" : 21392
+  },
+  "description" : "Open 'Swag Labs' Page",
+  "descriptionHtml" : "<p>Open 'Swag Labs' Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1623270036114,
+        "stop" : 0,
+        "duration" : -1623270036114
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1623270036521,
+          "stop" : 1623270057343,
+          "duration" : 20822
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "36f2b2e716d604de",
+        "name" : "Request",
+        "source" : "36f2b2e716d604de.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add multiple items"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Add multiple items to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add multiple items to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "1.- Open 'Swag Labs' Page"
+  }, {
+    "name" : "package",
+    "value" : "Add multiple items to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49deb88a45cd2b39.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

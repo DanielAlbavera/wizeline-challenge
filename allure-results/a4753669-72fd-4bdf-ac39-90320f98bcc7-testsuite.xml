@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623270233268' stop='1623270345619'>
+    <name>Login with a valid user.</name>
+    <title>Login with a valid user.</title>
+    <test-cases>
+        <test-case start='1623270233275' status='passed' stop='1623270293258'>
+            <name>1.- Open 'Swag Labs' Page</name>
+            <title>1.- Open 'Swag Labs' Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+                <label name='feature' value='Login'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270233314' status='passed' stop='1623270293256'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2cea96e3-7ec2-4c59-8dd6-2273d7faf610-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps>
+                        <step start='1623270233993' status='passed' stop='1623270277531'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments>
+                                <attachment title='Response' source='2de1dd05-8581-487f-ad6f-c8f22a5e8449-attachment.json' type='application/json' size='58'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Open 'Swag Labs' Page</description>
+        </test-case>
+        <test-case start='1623270293259' status='passed' stop='1623270340601'>
+            <name>2.- Login with a valid 'username' and 'password'</name>
+            <title>2.- Login with a valid 'username' and 'password'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+                <label name='feature' value='Login'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270293270' status='passed' stop='1623270296655'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d5708dab-693d-4ec2-ba55-d0fd8d6c72eb-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='fed62030-565d-4000-9337-522929a60cf8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270298891' status='passed' stop='1623270300652'>
+                    <name>POST /session/:sessionId/element/09c1f494-7edb-475a-83ab-8ec6fac59d12/clear</name>
+                    <title>POST /session/:sessionId/element/09c1f494-7edb-475a-83ab-8ec6fac59d12/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623270300661' status='passed' stop='1623270318054'>
+                    <name>POST /session/:sessionId/element/09c1f494-7edb-475a-83ab-8ec6fac59d12/value</name>
+                    <title>POST /session/:sessionId/element/09c1f494-7edb-475a-83ab-8ec6fac59d12/value</title>
+                    <attachments>
+                        <attachment title='Request' source='7ebedcf1-e62b-4564-ab6d-218ab9f258e3-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270318056' status='passed' stop='1623270320036'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4d78a094-2771-4ecc-903e-e27d8033db01-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='cd57c9fd-459a-48cd-a7be-c382aba7dfda-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270320088' status='passed' stop='1623270325189'>
+                    <name>POST /session/:sessionId/element/16a1c304-8df9-48d3-9bda-20e352e5e194/clear</name>
+                    <title>POST /session/:sessionId/element/16a1c304-8df9-48d3-9bda-20e352e5e194/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623270325192' status='passed' stop='1623270327223'>
+                    <name>POST /session/:sessionId/element/16a1c304-8df9-48d3-9bda-20e352e5e194/value</name>
+                    <title>POST /session/:sessionId/element/16a1c304-8df9-48d3-9bda-20e352e5e194/value</title>
+                    <attachments>
+                        <attachment title='Request' source='07bb3581-2402-449a-802e-109063a1bfae-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270327224' status='passed' stop='1623270327871'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='73af940c-0a7d-4e24-9889-ab49879d2377-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='46f4ef0f-433a-417e-9c39-d0752d71fd7f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270327945' status='passed' stop='1623270340601'>
+                    <name>POST /session/:sessionId/element/814651c5-d4ef-40e7-b634-9a13bc4efcae/click</name>
+                    <title>POST /session/:sessionId/element/814651c5-d4ef-40e7-b634-9a13bc4efcae/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Login with a valid 'username' and 'password'</description>
+        </test-case>
+        <test-case start='1623270340603' status='passed' stop='1623270345618'>
+            <name>3.- Validate 'Inventory Page' is displayed</name>
+            <title>3.- Validate 'Inventory Page' is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+                <label name='feature' value='Login'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-89.0'/>
+            </parameters>
+            <steps>
+                <step start='1623270340627' status='passed' stop='1623270343637'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8e077538-f561-48ce-9c9b-b539dfed6808-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='5a53c473-c8f7-4d2e-9711-5a1b0a4e66f7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270343790' status='passed' stop='1623270345445'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='805b56fc-8255-4b17-abc5-eb48717543a7-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='29c4d01a-7be5-458e-b5e2-750b4f84752a-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Validate 'Inventory Page' is displayed</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

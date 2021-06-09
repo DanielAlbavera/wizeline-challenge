@@ -1,0 +1,205 @@
+{
+  "uid" : "957e1678cd2f4d60",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "fullName" : "Logout from the home page..1.- Open 'Swag Labs' Page",
+  "historyId" : "29c0856aa41b3a7cee7cc311bbb3c8f9",
+  "time" : {
+    "start" : 1623271023057,
+    "stop" : 1623271026508,
+    "duration" : 3451
+  },
+  "description" : "Open 'Swag Labs' Page",
+  "descriptionHtml" : "<p>Open 'Swag Labs' Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1623271023064,
+        "stop" : 0,
+        "duration" : -1623271023064
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1623271023097,
+          "stop" : 1623271026499,
+          "duration" : 3402
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "9cd1d8ec9b40559",
+        "name" : "Request",
+        "source" : "9cd1d8ec9b40559.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Logout"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "1.- Open 'Swag Labs' Page"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9bf3908e84b6b70a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270035949,
+        "stop" : 1623270057354,
+        "duration" : 21405
+      }
+    }, {
+      "uid" : "af2c58e3128ce438",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623268599455,
+        "stop" : 1623268603648,
+        "duration" : 4193
+      }
+    }, {
+      "uid" : "c9862c44bfd733b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267757260,
+        "stop" : 1623267762130,
+        "duration" : 4870
+      }
+    }, {
+      "uid" : "1c927add673c77d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267562705,
+        "stop" : 1623267567184,
+        "duration" : 4479
+      }
+    }, {
+      "uid" : "c3b779c2e8a24fc3",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addFeature is not a function",
+      "time" : {
+        "start" : 1623267408261,
+        "stop" : 1623267408284,
+        "duration" : 23
+      }
+    }, {
+      "uid" : "b4d501d0d326ab85",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'addFeature' of undefined",
+      "time" : {
+        "start" : 1623266798539,
+        "stop" : 1623266798560,
+        "duration" : 21
+      }
+    }, {
+      "uid" : "305f212dd103bffa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623265664160,
+        "stop" : 1623265675619,
+        "duration" : 11459
+      }
+    }, {
+      "uid" : "32cb8bc4a9458933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623265018029,
+        "stop" : 1623265020869,
+        "duration" : 2840
+      }
+    }, {
+      "uid" : "549e0df6204cf60c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623264893598,
+        "stop" : 1623264899411,
+        "duration" : 5813
+      }
+    }, {
+      "uid" : "21cd2849b7e0b213",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623264514507,
+        "stop" : 1623264519223,
+        "duration" : 4716
+      }
+    }, {
+      "uid" : "8268af885e78a5b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623264181391,
+        "stop" : 1623264188057,
+        "duration" : 6666
+      }
+    }, {
+      "uid" : "d84c28b23fb4984e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623263388198,
+        "stop" : 1623263391516,
+        "duration" : 3318
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "957e1678cd2f4d60.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

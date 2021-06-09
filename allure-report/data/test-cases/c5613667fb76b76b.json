@@ -1,0 +1,165 @@
+{
+  "uid" : "c5613667fb76b76b",
+  "name" : "1.- Open 'Swag Labs' Page",
+  "fullName" : "Logout from the home page..1.- Open 'Swag Labs' Page",
+  "historyId" : "c05b7d1d0433f9ea4a2bfea815f2d3cb",
+  "time" : {
+    "start" : 1623271034138,
+    "stop" : 1623271038331,
+    "duration" : 4193
+  },
+  "description" : "Open 'Swag Labs' Page",
+  "descriptionHtml" : "<p>Open 'Swag Labs' Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1623271034164,
+        "stop" : 0,
+        "duration" : -1623271034164
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/window/maximize",
+        "time" : {
+          "start" : 1623271034184,
+          "stop" : 1623271038326,
+          "duration" : 4142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "87d6cce12bba4c05",
+        "name" : "Request",
+        "source" : "87d6cce12bba4c05.json",
+        "type" : "application/json",
+        "size" : 41
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Logout"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "1.- Open 'Swag Labs' Page"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93d7a3849ae32514",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270233258,
+        "stop" : 1623270287152,
+        "duration" : 53894
+      }
+    }, {
+      "uid" : "8044934eb7101a2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623268641659,
+        "stop" : 1623268647734,
+        "duration" : 6075
+      }
+    }, {
+      "uid" : "1bdd564168169da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267779472,
+        "stop" : 1623267783093,
+        "duration" : 3621
+      }
+    }, {
+      "uid" : "e4f2bd9bb9039648",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267590234,
+        "stop" : 1623267594843,
+        "duration" : 4609
+      }
+    }, {
+      "uid" : "be0e97f1d82d43fe",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addFeature is not a function",
+      "time" : {
+        "start" : 1623267432165,
+        "stop" : 1623267432195,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "44637b04dad7a930",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'addFeature' of undefined",
+      "time" : {
+        "start" : 1623266798328,
+        "stop" : 1623266798342,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "8e2245f6f7c1a8aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623265734900,
+        "stop" : 1623265740386,
+        "duration" : 5486
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5613667fb76b76b.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

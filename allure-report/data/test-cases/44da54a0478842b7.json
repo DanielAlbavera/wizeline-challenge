@@ -1,0 +1,225 @@
+{
+  "uid" : "44da54a0478842b7",
+  "name" : "4.- Click on the 'burger menu' -> 'LOGOUT' Button",
+  "fullName" : "Logout from the home page..4.- Click on the 'burger menu' -> 'LOGOUT' Button",
+  "historyId" : "165e9e7d5b292669dde9becc56200af1",
+  "time" : {
+    "start" : 1623265743218,
+    "stop" : 1623265745746,
+    "duration" : 2528
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623265743227,
+        "stop" : 1623265743541,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6a524713499a8cf",
+        "name" : "Request",
+        "source" : "6a524713499a8cf.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "dc8469f5e643573f",
+        "name" : "Response",
+        "source" : "dc8469f5e643573f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/5978791b-0ff3-4690-82ce-7aa880159009/click",
+      "time" : {
+        "start" : 1623265743645,
+        "stop" : 1623265744435,
+        "duration" : 790
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623265744435,
+        "stop" : 1623265744608,
+        "duration" : 173
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0ccf9f8bccec264",
+        "name" : "Request",
+        "source" : "b0ccf9f8bccec264.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "e5a335396f6d53eb",
+        "name" : "Response",
+        "source" : "e5a335396f6d53eb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/2795a9b0-0598-4d1c-99b4-101a55b024af/displayed",
+      "time" : {
+        "start" : 1623265744646,
+        "stop" : 1623265744893,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5243625b7cbd04ce",
+        "name" : "Response",
+        "source" : "5243625b7cbd04ce.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1623265744895,
+        "stop" : 1623265745178,
+        "duration" : 283
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a95bceaa4de03030",
+        "name" : "Request",
+        "source" : "a95bceaa4de03030.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "81d6ccd7b82c7716",
+        "name" : "Response",
+        "source" : "81d6ccd7b82c7716.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623265745178,
+        "stop" : 1623265745268,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3faf55d9d7d0f6c4",
+        "name" : "Request",
+        "source" : "3faf55d9d7d0f6c4.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "1fad8ca73f642792",
+        "name" : "Response",
+        "source" : "1fad8ca73f642792.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/2795a9b0-0598-4d1c-99b4-101a55b024af/click",
+      "time" : {
+        "start" : 1623265745313,
+        "stop" : 1623265745745,
+        "duration" : 432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "4.- Click on the 'burger menu' -> 'LOGOUT' Button"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "44da54a0478842b7.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

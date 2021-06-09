@@ -1,0 +1,1073 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Sort products by Price (low to high).",
+    "children" : [ {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "af4c804cb426084b",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270035953,
+        "stop" : 1623270057338,
+        "duration" : 21385
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "8a34b2766907919b",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270057339,
+        "stop" : 1623270084010,
+        "duration" : 26671
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "c0de324bdaa8158c",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270084011,
+        "stop" : 1623270084998,
+        "duration" : 987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+      "uid" : "d9868ed5d806f4e4",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270084999,
+        "stop" : 1623270086173,
+        "duration" : 1174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "5.- Validate that the products are sorded by 'low to high' price",
+      "uid" : "44ac55cd4b725f2a",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270086174,
+        "stop" : 1623270086225,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "abbc24f0500f9854",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270233253,
+        "stop" : 1623270287603,
+        "duration" : 54350
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "595d68b3fa94517e",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270287641,
+        "stop" : 1623270340328,
+        "duration" : 52687
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "9da81e05605129df",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270340329,
+        "stop" : 1623270344332,
+        "duration" : 4003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "4.- Select 'Price (low to high)' option in the 'sort dropdown'",
+      "uid" : "1597b82d17c51bf0",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270344333,
+        "stop" : 1623270349577,
+        "duration" : 5244
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "5.- Validate that the products are sorded by 'low to high' price",
+      "uid" : "df6f5b3aa1d304e1",
+      "parentUid" : "5ac3ec68c3501e6fa8100a2abbaf3010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270349582,
+        "stop" : 1623270349659,
+        "duration" : 77
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    } ],
+    "uid" : "5ac3ec68c3501e6fa8100a2abbaf3010"
+  }, {
+    "name" : "Login with a valid user.",
+    "children" : [ {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "1465e4fb6a2ca3e",
+      "parentUid" : "3a3c21c958c3c2630b0fbfe4e286b2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270035972,
+        "stop" : 1623270057416,
+        "duration" : 21444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "da774484a5de48ad",
+      "parentUid" : "3a3c21c958c3c2630b0fbfe4e286b2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270057417,
+        "stop" : 1623270084028,
+        "duration" : 26611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "4d221746675a0f2",
+      "parentUid" : "3a3c21c958c3c2630b0fbfe4e286b2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270084029,
+        "stop" : 1623270084997,
+        "duration" : 968
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "29e373adb8b6ecc5",
+      "parentUid" : "3a3c21c958c3c2630b0fbfe4e286b2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270233275,
+        "stop" : 1623270293258,
+        "duration" : 59983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "f2d277014ec46be5",
+      "parentUid" : "3a3c21c958c3c2630b0fbfe4e286b2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270293259,
+        "stop" : 1623270340601,
+        "duration" : 47342
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "1e1882edea0e2ccd",
+      "parentUid" : "3a3c21c958c3c2630b0fbfe4e286b2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270340603,
+        "stop" : 1623270345618,
+        "duration" : 5015
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    } ],
+    "uid" : "3a3c21c958c3c2630b0fbfe4e286b2bd"
+  }, {
+    "name" : "Add multiple items to the shopping cart.",
+    "children" : [ {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "49deb88a45cd2b39",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270035973,
+        "stop" : 1623270057365,
+        "duration" : 21392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "bed1cf8c17e99605",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270057367,
+        "stop" : 1623270093116,
+        "duration" : 35749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "c30197a91c3de0cb",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270093117,
+        "stop" : 1623270093385,
+        "duration" : 268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "4.- Add multiple items to the shopping cart",
+      "uid" : "d8e6bd2780afd929",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270093386,
+        "stop" : 1623270093391,
+        "duration" : 5
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "5.- Validate all the items have been added to the shopping cart",
+      "uid" : "6674e6dfd5a9496a",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270093392,
+        "stop" : 1623270093415,
+        "duration" : 23
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "45f47ddbea265780",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270247808,
+        "stop" : 1623270289825,
+        "duration" : 42017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "2683b60a301bce4e",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270289827,
+        "stop" : 1623270342820,
+        "duration" : 52993
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "e7c787e4cd0332f3",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270342821,
+        "stop" : 1623270345337,
+        "duration" : 2516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "4.- Add multiple items to the shopping cart",
+      "uid" : "f693c8ef0127be25",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270345395,
+        "stop" : 1623270345495,
+        "duration" : 100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "5.- Validate all the items have been added to the shopping cart",
+      "uid" : "69c599f0818e5811",
+      "parentUid" : "96376e95299763454fddadd0a6474b50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270345512,
+        "stop" : 1623270345877,
+        "duration" : 365
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    } ],
+    "uid" : "96376e95299763454fddadd0a6474b50"
+  }, {
+    "name" : "Login with an invalid user.",
+    "children" : [ {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "897efa777fd66122",
+      "parentUid" : "172583db104e06f6d4dda3f0a46da4d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270035981,
+        "stop" : 1623270057349,
+        "duration" : 21368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "b6be02efb229fc32",
+      "parentUid" : "172583db104e06f6d4dda3f0a46da4d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270057351,
+        "stop" : 1623270081560,
+        "duration" : 24209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "40f57ed38f88f953",
+      "parentUid" : "172583db104e06f6d4dda3f0a46da4d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270081561,
+        "stop" : 1623270082597,
+        "duration" : 1036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "afb8c1046ae1ba5a",
+      "parentUid" : "172583db104e06f6d4dda3f0a46da4d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270233246,
+        "stop" : 1623270287150,
+        "duration" : 53904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "67405b0e5a8ed34a",
+      "parentUid" : "172583db104e06f6d4dda3f0a46da4d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270287152,
+        "stop" : 1623270335197,
+        "duration" : 48045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "e217a31266e0c24c",
+      "parentUid" : "172583db104e06f6d4dda3f0a46da4d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270335198,
+        "stop" : 1623270344966,
+        "duration" : 9768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    } ],
+    "uid" : "172583db104e06f6d4dda3f0a46da4d1"
+  }, {
+    "name" : "Complete a purchase.",
+    "children" : [ {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "c746d682736f4927",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270233305,
+        "stop" : 1623270264176,
+        "duration" : 30871
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "fb3f36821a9811ed",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270264177,
+        "stop" : 1623270293400,
+        "duration" : 29223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "91a7a8b68c398558",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270294452,
+        "stop" : 1623270299821,
+        "duration" : 5369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "4.- Click on the 'Sauce Labs Backpack' Product",
+      "uid" : "abe8262b17712598",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270299824,
+        "stop" : 1623270328608,
+        "duration" : 28784
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "5.- Validate 'Sauce Labs Backpack' Product Page is displayed",
+      "uid" : "11f4c4441c5d1c6b",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270328609,
+        "stop" : 1623270330160,
+        "duration" : 1551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "6.- Click on the 'cart' Button",
+      "uid" : "4851148cf2ac443c",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270330161,
+        "stop" : 1623270332914,
+        "duration" : 2753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "7.- Validate that the 'Cart' Page is displayed",
+      "uid" : "8ef5ad8238a0910f",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270332915,
+        "stop" : 1623270333815,
+        "duration" : 900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "8.- Click on 'CHECKOUT' Button",
+      "uid" : "da032c7d9524cc6f",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270333816,
+        "stop" : 1623270340598,
+        "duration" : 6782
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "9.- Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'",
+      "uid" : "2b4aa7f120a4e705",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270340599,
+        "stop" : 1623270342995,
+        "duration" : 2396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "10.- Insert 'First Name', 'Last Name', and 'Zip Code'",
+      "uid" : "316f4ec055d0ef29",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270342996,
+        "stop" : 1623270352931,
+        "duration" : 9935
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "11.- Click on 'CONTINUE' Button",
+      "uid" : "ea8e226ed16117ab",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270352932,
+        "stop" : 1623270358937,
+        "duration" : 6005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "12.- Validate that the 'CHECKOUT: OVERVIEW' Page is displayed",
+      "uid" : "cb248b23fe12f88b",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270358938,
+        "stop" : 1623270360902,
+        "duration" : 1964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "13.- Click on 'FINISH' Button",
+      "uid" : "60d4d3d2c26fbdfd",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270360903,
+        "stop" : 1623270362164,
+        "duration" : 1261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "14.- Validate that the 'CHECKOUT: COMPLETE' Page is displayed",
+      "uid" : "9b759087b5821c43",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270362164,
+        "stop" : 1623270362409,
+        "duration" : 245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "50d764f4c6bce663",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270469863,
+        "stop" : 1623270474776,
+        "duration" : 4913
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "d0dbd746636e7647",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270474778,
+        "stop" : 1623270480080,
+        "duration" : 5302
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "5d4cec9c660f19f0",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270480081,
+        "stop" : 1623270481949,
+        "duration" : 1868
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "4.- Click on the 'Sauce Labs Backpack' Product",
+      "uid" : "81c5cae5e6829764",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270481963,
+        "stop" : 1623270485125,
+        "duration" : 3162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "5.- Validate 'Sauce Labs Backpack' Product Page is displayed",
+      "uid" : "cb68fccd4d5605f2",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270485125,
+        "stop" : 1623270485891,
+        "duration" : 766
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "6.- Click on the 'cart' Button",
+      "uid" : "a3b3b3a365abf8fd",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270485892,
+        "stop" : 1623270487327,
+        "duration" : 1435
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "7.- Validate that the 'Cart' Page is displayed",
+      "uid" : "8da1ad4f10ae59e4",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270487328,
+        "stop" : 1623270487611,
+        "duration" : 283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "8.- Click on 'CHECKOUT' Button",
+      "uid" : "b6da6741781edd4d",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270487614,
+        "stop" : 1623270488672,
+        "duration" : 1058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "9.- Validate that the 'CHECKOUT: YOUR INFORMATION' Page is displayed'",
+      "uid" : "5935664dc947d065",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270488672,
+        "stop" : 1623270488858,
+        "duration" : 186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "10.- Insert 'First Name', 'Last Name', and 'Zip Code'",
+      "uid" : "c9ccb03f82097d06",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270488868,
+        "stop" : 1623270489748,
+        "duration" : 880
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "11.- Click on 'CONTINUE' Button",
+      "uid" : "e55bba3c3e1a1304",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270489749,
+        "stop" : 1623270490483,
+        "duration" : 734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "12.- Validate that the 'CHECKOUT: OVERVIEW' Page is displayed",
+      "uid" : "e7e20371e78dcbfc",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270490484,
+        "stop" : 1623270490581,
+        "duration" : 97
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "13.- Click on 'FINISH' Button",
+      "uid" : "5f92e1cde55d648d",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270490581,
+        "stop" : 1623270491222,
+        "duration" : 641
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "14.- Validate that the 'CHECKOUT: COMPLETE' Page is displayed",
+      "uid" : "4e92054ffd7ad91b",
+      "parentUid" : "f309c23402988609581ea6148951bd2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270491223,
+        "stop" : 1623270491561,
+        "duration" : 338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    } ],
+    "uid" : "f309c23402988609581ea6148951bd2f"
+  }, {
+    "name" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart.",
+    "children" : [ {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "264a6f532fb9549",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270233364,
+        "stop" : 1623270264176,
+        "duration" : 30812
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "219513195e6e5124",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270264177,
+        "stop" : 1623270292717,
+        "duration" : 28540
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "d7af91072554076",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270292717,
+        "stop" : 1623270297719,
+        "duration" : 5002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "4.- Click on the 'Sauce Labs Onesie' Product",
+      "uid" : "df20233abbf6fb40",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270297720,
+        "stop" : 1623270325646,
+        "duration" : 27926
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+      "uid" : "9b3153bacb46a934",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270325647,
+        "stop" : 1623270331047,
+        "duration" : 5400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "923f1547a78916d3",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270470222,
+        "stop" : 1623270474879,
+        "duration" : 4657
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "ffefae8211b172da",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270474880,
+        "stop" : 1623270481499,
+        "duration" : 6619
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "3f94197e3abdfd6d",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270481500,
+        "stop" : 1623270483698,
+        "duration" : 2198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "4.- Click on the 'Sauce Labs Onesie' Product",
+      "uid" : "1c50ef65c6233854",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270483699,
+        "stop" : 1623270485581,
+        "duration" : 1882
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "5.- Validate 'Sauce Labs Onesie' Product Page is displayed",
+      "uid" : "fad21ad4556619cf",
+      "parentUid" : "2056f74608e52d9785a9751d075c30e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270485581,
+        "stop" : 1623270486060,
+        "duration" : 479
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    } ],
+    "uid" : "2056f74608e52d9785a9751d075c30e1"
+  }, {
+    "name" : "Logout from the home page.",
+    "children" : [ {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "957e1678cd2f4d60",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271023057,
+        "stop" : 1623271026508,
+        "duration" : 3451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "26bc90dcf713106a",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271026509,
+        "stop" : 1623271029739,
+        "duration" : 3230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "789f81774a5430c1",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271029739,
+        "stop" : 1623271030073,
+        "duration" : 334
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "4.- Click on the 'burger menu' -> 'LOGOUT' Button",
+      "uid" : "5f3494efbcf18423",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271030077,
+        "stop" : 1623271034899,
+        "duration" : 4822
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "1.- Open 'Swag Labs' Page",
+      "uid" : "c5613667fb76b76b",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271034138,
+        "stop" : 1623271038331,
+        "duration" : 4193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "5.- Validate 'Login Page' is displayed",
+      "uid" : "1d22479b13430b15",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271034899,
+        "stop" : 1623271035136,
+        "duration" : 237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    }, {
+      "name" : "2.- Login with a valid 'username' and 'password'",
+      "uid" : "571671cf26c18fc3",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271038341,
+        "stop" : 1623271041608,
+        "duration" : 3267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "3.- Validate 'Inventory Page' is displayed",
+      "uid" : "a681111d706bf7ac",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271041609,
+        "stop" : 1623271042099,
+        "duration" : 490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "4.- Click on the 'burger menu' -> 'LOGOUT' Button",
+      "uid" : "424eac64f2a3af5b",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271042110,
+        "stop" : 1623271043809,
+        "duration" : 1699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    }, {
+      "name" : "5.- Validate 'Login Page' is displayed",
+      "uid" : "56f351c2dde3262a",
+      "parentUid" : "e4090d6afe522f256dbb0f4b45f03e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623271043811,
+        "stop" : 1623271044011,
+        "duration" : 200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-89.0" ]
+    } ],
+    "uid" : "e4090d6afe522f256dbb0f4b45f03e14"
+  } ],
+  "name" : "suites"
+}

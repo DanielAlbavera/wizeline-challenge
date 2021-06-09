@@ -1,0 +1,188 @@
+{
+  "uid" : "b6da6741781edd4d",
+  "name" : "8.- Click on 'CHECKOUT' Button",
+  "fullName" : "Complete a purchase..8.- Click on 'CHECKOUT' Button",
+  "historyId" : "d86cf59042cc312bde4f85e4d7b523db",
+  "time" : {
+    "start" : 1623270487614,
+    "stop" : 1623270488672,
+    "duration" : 1058
+  },
+  "description" : "Click on 'CHECKOUT' Button",
+  "descriptionHtml" : "<p>Click on 'CHECKOUT' Button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270487615,
+        "stop" : 1623270487690,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "529c4cdb2142870c",
+        "name" : "Request",
+        "source" : "529c4cdb2142870c.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "bc2276dbb6b0646",
+        "name" : "Response",
+        "source" : "bc2276dbb6b0646.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/9cd32fbe-aea6-4249-95ad-60f467dde746/displayed",
+      "time" : {
+        "start" : 1623270487784,
+        "stop" : 1623270487882,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d57aad5215b265b3",
+        "name" : "Response",
+        "source" : "d57aad5215b265b3.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1623270487888,
+        "stop" : 1623270487986,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "806496abd1aaac89",
+        "name" : "Request",
+        "source" : "806496abd1aaac89.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "8e62edc1d131fa4c",
+        "name" : "Response",
+        "source" : "8e62edc1d131fa4c.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270487989,
+        "stop" : 1623270488058,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9ab507071ebbce9",
+        "name" : "Request",
+        "source" : "e9ab507071ebbce9.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "bc7637696f131582",
+        "name" : "Response",
+        "source" : "bc7637696f131582.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/9cd32fbe-aea6-4249-95ad-60f467dde746/click",
+      "time" : {
+        "start" : 1623270488083,
+        "stop" : 1623270488671,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Complete a purchase"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-6"
+  }, {
+    "name" : "suite",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testClass",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testMethod",
+    "value" : "8.- Click on 'CHECKOUT' Button"
+  }, {
+    "name" : "package",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6da6741781edd4d.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

@@ -1,0 +1,125 @@
+{
+  "uid" : "4d221746675a0f2",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "fullName" : "Login with a valid user..3.- Validate 'Inventory Page' is displayed",
+  "historyId" : "4f73e870db3c76e1c163986752a1ba95",
+  "time" : {
+    "start" : 1623270084029,
+    "stop" : 1623270084997,
+    "duration" : 968
+  },
+  "description" : "Validate 'Inventory Page' is displayed",
+  "descriptionHtml" : "<p>Validate 'Inventory Page' is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270084063,
+        "stop" : 1623270084369,
+        "duration" : 306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b68fab1ad3f5978",
+        "name" : "Request",
+        "source" : "5b68fab1ad3f5978.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "a6556cd3b136cd1e",
+        "name" : "Response",
+        "source" : "a6556cd3b136cd1e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623270084427,
+        "stop" : 1623270084883,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4058ab7084c1f9cc",
+        "name" : "Request",
+        "source" : "4058ab7084c1f9cc.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "c522a6c94ee82364",
+        "name" : "Response",
+        "source" : "c522a6c94ee82364.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login with a valid user."
+  }, {
+    "name" : "testClass",
+    "value" : "Login with a valid user."
+  }, {
+    "name" : "testMethod",
+    "value" : "3.- Validate 'Inventory Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Login with a valid user."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d221746675a0f2.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

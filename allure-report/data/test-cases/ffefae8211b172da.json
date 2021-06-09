@@ -1,0 +1,245 @@
+{
+  "uid" : "ffefae8211b172da",
+  "name" : "2.- Login with a valid 'username' and 'password'",
+  "fullName" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart..2.- Login with a valid 'username' and 'password'",
+  "historyId" : "994097a13208df0fe019a4ec2bbf9070",
+  "time" : {
+    "start" : 1623270474880,
+    "stop" : 1623270481499,
+    "duration" : 6619
+  },
+  "description" : "null",
+  "descriptionHtml" : "<p>null</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270474916,
+        "stop" : 1623270476844,
+        "duration" : 1928
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2e36c7198ef682db",
+        "name" : "Request",
+        "source" : "2e36c7198ef682db.json",
+        "type" : "application/json",
+        "size" : 54
+      }, {
+        "uid" : "d291d39f874ca279",
+        "name" : "Response",
+        "source" : "d291d39f874ca279.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/9eb1f370-611a-429e-997e-62a3bb924cab/clear",
+      "time" : {
+        "start" : 1623270477201,
+        "stop" : 1623270477348,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/9eb1f370-611a-429e-997e-62a3bb924cab/value",
+      "time" : {
+        "start" : 1623270477380,
+        "stop" : 1623270478378,
+        "duration" : 998
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d00352b50c28802",
+        "name" : "Request",
+        "source" : "6d00352b50c28802.json",
+        "type" : "application/json",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270478381,
+        "stop" : 1623270478598,
+        "duration" : 217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "32416a81d76d49d4",
+        "name" : "Request",
+        "source" : "32416a81d76d49d4.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "cbfe8eaa832eab93",
+        "name" : "Response",
+        "source" : "cbfe8eaa832eab93.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/8317df25-16cd-4992-ab8e-cd1cf5769c52/clear",
+      "time" : {
+        "start" : 1623270478623,
+        "stop" : 1623270478751,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/8317df25-16cd-4992-ab8e-cd1cf5769c52/value",
+      "time" : {
+        "start" : 1623270478756,
+        "stop" : 1623270479199,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4aa3bdf1e26cf875",
+        "name" : "Request",
+        "source" : "4aa3bdf1e26cf875.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270479200,
+        "stop" : 1623270479327,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de353079add0eaf6",
+        "name" : "Request",
+        "source" : "de353079add0eaf6.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "421c7b5eb8686f78",
+        "name" : "Response",
+        "source" : "421c7b5eb8686f78.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0d4b8d9f-2606-47ec-83b1-122869b47002/click",
+      "time" : {
+        "start" : 1623270479377,
+        "stop" : 1623270481499,
+        "duration" : 2122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "477db7a85bd84d1a",
+      "name" : "Response",
+      "source" : "477db7a85bd84d1a.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add specific product"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-5"
+  }, {
+    "name" : "suite",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "2.- Login with a valid 'username' and 'password'"
+  }, {
+    "name" : "package",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffefae8211b172da.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

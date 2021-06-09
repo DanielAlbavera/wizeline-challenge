@@ -1,0 +1,183 @@
+{
+  "uid" : "56f351c2dde3262a",
+  "name" : "5.- Validate 'Login Page' is displayed",
+  "fullName" : "Logout from the home page..5.- Validate 'Login Page' is displayed",
+  "historyId" : "e5576e8f02d2aae349780c6d7979a622",
+  "time" : {
+    "start" : 1623271043811,
+    "stop" : 1623271044011,
+    "duration" : 200
+  },
+  "description" : "Validate 'Login Page' is displayed",
+  "descriptionHtml" : "<p>Validate 'Login Page' is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623271043812,
+        "stop" : 1623271043879,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c0dedf694e3ffd0a",
+        "name" : "Request",
+        "source" : "c0dedf694e3ffd0a.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "62c973fa6c3a10f4",
+        "name" : "Response",
+        "source" : "62c973fa6c3a10f4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623271043923,
+        "stop" : 1623271043981,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d1c9177cbbc46f0",
+        "name" : "Request",
+        "source" : "6d1c9177cbbc46f0.json",
+        "type" : "application/json",
+        "size" : 57
+      }, {
+        "uid" : "15bef6fa95301613",
+        "name" : "Response",
+        "source" : "15bef6fa95301613.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Logout"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testClass",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "testMethod",
+    "value" : "5.- Validate 'Login Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Logout from the home page."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "154380de4d3ab918",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623270349696,
+        "stop" : 1623270353728,
+        "duration" : 4032
+      }
+    }, {
+      "uid" : "55dfb5fe90aa4de1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623268656862,
+        "stop" : 1623268657035,
+        "duration" : 173
+      }
+    }, {
+      "uid" : "7ff51c330532508c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267789709,
+        "stop" : 1623267789827,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "c7fe4c117005eccb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623267599956,
+        "stop" : 1623267600149,
+        "duration" : 193
+      }
+    }, {
+      "uid" : "ed274d67b905f61a",
+      "status" : "broken",
+      "statusDetails" : "allureReporter.addStep is not a function",
+      "time" : {
+        "start" : 1623267432261,
+        "stop" : 1623267432269,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "d8b2782456cd97f6",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'addStep' of undefined",
+      "time" : {
+        "start" : 1623266798416,
+        "stop" : 1623266798441,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "df41a1064f198c14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623265745746,
+        "stop" : 1623265745970,
+        "duration" : 224
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56f351c2dde3262a.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

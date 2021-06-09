@@ -1,0 +1,222 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623270035972' stop='1623270093429'>
+    <name>Add multiple items to the shopping cart.</name>
+    <title>Add multiple items to the shopping cart.</title>
+    <test-cases>
+        <test-case start='1623270035973' status='passed' stop='1623270057365'>
+            <name>1.- Open 'Swag Labs' Page</name>
+            <title>1.- Open 'Swag Labs' Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Add multiple items'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps>
+                <step start='1623270036114' status='undefined'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ff927b51-e287-4c76-9c48-fbfe1a4b522c-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps>
+                        <step start='1623270036521' status='passed' stop='1623270057343'>
+                            <name>POST /session/:sessionId/window/maximize</name>
+                            <title>POST /session/:sessionId/window/maximize</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Open 'Swag Labs' Page</description>
+        </test-case>
+        <test-case start='1623270057367' status='passed' stop='1623270093116'>
+            <name>2.- Login with a valid 'username' and 'password'</name>
+            <title>2.- Login with a valid 'username' and 'password'</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Add multiple items'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps>
+                <step start='1623270057456' status='passed' stop='1623270057895'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='301d5361-fab5-45b0-a823-09c22c9cf7d1-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='5131dac4-b6f9-4c03-8b47-1d5014175e81-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270065730' status='passed' stop='1623270066607'>
+                    <name>POST /session/:sessionId/element/fa8b7191-35e4-4a65-a238-89661465a7ea/clear</name>
+                    <title>POST /session/:sessionId/element/fa8b7191-35e4-4a65-a238-89661465a7ea/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623270066618' status='passed' stop='1623270074312'>
+                    <name>POST /session/:sessionId/element/fa8b7191-35e4-4a65-a238-89661465a7ea/value</name>
+                    <title>POST /session/:sessionId/element/fa8b7191-35e4-4a65-a238-89661465a7ea/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3b7fcb04-decd-46ca-ae5a-8862c598646c-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270074313' status='passed' stop='1623270074471'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='68b74723-f6e6-4191-bb81-bfa46cba3135-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='f7a2ad4e-083e-49fd-89bb-60ddce525f40-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270074993' status='passed' stop='1623270075246'>
+                    <name>POST /session/:sessionId/element/be448269-29b0-4d18-a607-32b01697b181/clear</name>
+                    <title>POST /session/:sessionId/element/be448269-29b0-4d18-a607-32b01697b181/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1623270075249' status='passed' stop='1623270077794'>
+                    <name>POST /session/:sessionId/element/be448269-29b0-4d18-a607-32b01697b181/value</name>
+                    <title>POST /session/:sessionId/element/be448269-29b0-4d18-a607-32b01697b181/value</title>
+                    <attachments>
+                        <attachment title='Request' source='98cb098b-1446-409c-be08-79e144edba7d-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270077794' status='passed' stop='1623270078019'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='891b54dd-cc35-45b0-b972-11c00c26c25b-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='fc466f16-1d46-4249-a500-1a95fcab53b0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270078111' status='passed' stop='1623270093116'>
+                    <name>POST /session/:sessionId/element/c22341c0-1574-4ced-9349-95cfa4769a42/click</name>
+                    <title>POST /session/:sessionId/element/c22341c0-1574-4ced-9349-95cfa4769a42/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='e36b8213-dc91-414d-a946-43e1faf591ec-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <description type='text'>Login with a valid 'username' and 'password'</description>
+        </test-case>
+        <test-case start='1623270093117' status='passed' stop='1623270093385'>
+            <name>3.- Validate 'Inventory Page' is displayed</name>
+            <title>3.- Validate 'Inventory Page' is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Add multiple items'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps>
+                <step start='1623270093125' status='passed' stop='1623270093278'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e3669a5d-a423-474a-a120-fc1a0b20e2eb-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='8daacaf9-1309-4ead-ac50-981a6cd51726-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1623270093328' status='passed' stop='1623270093368'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='b99ce4f5-3e46-4aad-b9de-838fd082f25b-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='939d0a59-fa91-411f-9472-fb5fb2a3dfc1-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Validate 'Inventory Page' is displayed</description>
+        </test-case>
+        <test-case start='1623270093386' status='passed' stop='1623270093391'>
+            <name>4.- Add multiple items to the shopping cart</name>
+            <title>4.- Add multiple items to the shopping cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Add multiple items'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps>
+                <step start='1623270093387' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='23ea2703-bcbb-4d52-a262-0e46a023aaaa-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Add multiple items to the shopping cart</description>
+        </test-case>
+        <test-case start='1623270093392' status='passed' stop='1623270093415'>
+            <name>5.- Validate all the items have been added to the shopping cart</name>
+            <title>5.- Validate all the items have been added to the shopping cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Add multiple items'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.77'/>
+            </parameters>
+            <steps>
+                <step start='1623270093394' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9b4c5c0d-0906-477f-a91a-87548fc83a6c-attachment.json' type='application/json' size='53'/>
+                    </attachments>
+                    <steps>
+                        <step start='1623270093401' status='undefined'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='59f2c202-b808-4096-a333-e1970e4a07a2-attachment.json' type='application/json' size='64'/>
+                            </attachments>
+                            <steps>
+                                <step start='1623270093411' status='undefined'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='a3ba2ca8-e0e6-4307-af8e-89a69efaf4da-attachment.json' type='application/json' size='74'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Validate all the items have been added to the shopping cart</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

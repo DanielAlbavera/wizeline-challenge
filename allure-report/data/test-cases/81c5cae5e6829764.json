@@ -1,0 +1,113 @@
+{
+  "uid" : "81c5cae5e6829764",
+  "name" : "4.- Click on the 'Sauce Labs Backpack' Product",
+  "fullName" : "Complete a purchase..4.- Click on the 'Sauce Labs Backpack' Product",
+  "historyId" : "afc51e36daa5327b0514e5490cea79cd",
+  "time" : {
+    "start" : 1623270481963,
+    "stop" : 1623270485125,
+    "duration" : 3162
+  },
+  "description" : "Click on the 'Sauce Labs Backpack' Product",
+  "descriptionHtml" : "<p>Click on the 'Sauce Labs Backpack' Product</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270481984,
+        "stop" : 1623270483129,
+        "duration" : 1145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cea4ed8677f54e1",
+        "name" : "Request",
+        "source" : "8cea4ed8677f54e1.json",
+        "type" : "application/json",
+        "size" : 84
+      }, {
+        "uid" : "748eaf40e42b2f6f",
+        "name" : "Response",
+        "source" : "748eaf40e42b2f6f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/fb7af37e-416e-4e78-9f48-8e55c5f01ccc/click",
+      "time" : {
+        "start" : 1623270483232,
+        "stop" : 1623270485124,
+        "duration" : 1892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Complete a purchase"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-6"
+  }, {
+    "name" : "suite",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testClass",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "testMethod",
+    "value" : "4.- Click on the 'Sauce Labs Backpack' Product"
+  }, {
+    "name" : "package",
+    "value" : "Complete a purchase."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-89.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81c5cae5e6829764.json",
+  "parameterValues" : [ "firefox-89.0" ]
+}

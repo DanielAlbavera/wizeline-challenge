@@ -1,0 +1,125 @@
+{
+  "uid" : "d7af91072554076",
+  "name" : "3.- Validate 'Inventory Page' is displayed",
+  "fullName" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart..3.- Validate 'Inventory Page' is displayed",
+  "historyId" : "63f8a976c07e8fe201ff37d6ee404da4",
+  "time" : {
+    "start" : 1623270292717,
+    "stop" : 1623270297719,
+    "duration" : 5002
+  },
+  "description" : "Validate 'Inventory Page' is displayed",
+  "descriptionHtml" : "<p>Validate 'Inventory Page' is displayed</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1623270293204,
+        "stop" : 1623270294397,
+        "duration" : 1193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "63589457d5fbb156",
+        "name" : "Request",
+        "source" : "63589457d5fbb156.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "5c23b0f9b0c92c53",
+        "name" : "Response",
+        "source" : "5c23b0f9b0c92c53.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1623270294677,
+        "stop" : 1623270296822,
+        "duration" : 2145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f3c7516fd8d6861",
+        "name" : "Request",
+        "source" : "6f3c7516fd8d6861.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "3bad9d97ced44d1c",
+        "name" : "Response",
+        "source" : "3bad9d97ced44d1c.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Add specific product"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testClass",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "testMethod",
+    "value" : "3.- Validate 'Inventory Page' is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart."
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7af91072554076.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}
